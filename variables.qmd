@@ -2,16 +2,133 @@
 title: "Variablen"
 ---
 
-# Demografie
+# Erstmalige Aufnahme in die Warteliste
 
-| Variable | Beschreibung | Einheit | Hinweis |
-|----------|--------------|---------|---------|
-|          |              |         |         |
-|          |              |         |         |
-|          |              |         |         |
+| Variable     | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|--------------|--------------|---------|-----------|---------|
+| Datum        |              |         | L         |         |
+| Listenstatus |              |         | L         |         |
 
-# Vorerkrankungen
+# Statusänderung
+
+| Variable     | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|--------------|--------------|---------|-----------|---------|
+| Datum        |              |         |           |         |
+| Listenstatus |              |         |           |         |
+
+# Follow-up/
+
+| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|----|----|----|----|----|
+| Zeitpunkt de letzten Datenerhebung (last seen alive) |  |  |  |  |
+| Patient verstorben |  |  |  |  |
+
+# Demographie
+
+| Variable                    | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|-----------------------------|--------------|---------|-----------|---------|
+| Zentrumseigene Patienten ID |              |         | L         |         |
+| Episode                     |              |         | L         |         |
+| Geburtsdatum (Monat)        |              |         | L         |         |
+| Geburtsdatum (Jahr)         |              |         | L         |         |
+| Geschlecht                  |              |         | L         |         |
+| Datum der Listung           |              |         | L         |         |
+| Datum der Transplantation   |              |         | Tx        |         |
+| Blutgruppe                  |              |         | L         |         |
+| Rhesusfaktor                |              |         | L         |         |
+| Geburtsdatum (Monat)        |              |         | L         |         |
+| Größe                       |              | cm      | L         |         |
+| Gewicht                     |              | kg      | L         |         |
+
+# Niere
+
+| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|----------|--------------|---------|-----------|---------|
+| Niere    |              |         | L, Tx     |         |
+
+# Laborwerte
+
+| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|----|----|----|----|----|
+| Natrium |  |  | L, Tx |  |
+| Bilirubin |  | mg/dl $\mu$mol/l | L, Tx |  |
+| Serumkreatinin |  | mg/dl mmol/l | L, Tx |  |
+| Albumin |  | mg/dl | L, Tx |  |
+| INR | International Normalized Ratio |  | L, Tx |  |
+| PRA | Panel Reactive Antibodies |  | L, Tx |  |
+
+# Sonstige medikamentöse Therapie
+
+| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|----|----|----|----|----|
+| Marcumar - Therapie / Vitamin K - Antagonisten |  |  | L, Tx |  |
+| DOAK |  |  | L, Tx |  |
+| $\beta$-Blocker |  |  | L, Tx |  |
+| Sartane |  |  | L, Tx |  |
+| Diuretika |  |  | L, Tx |  |
+| Aldosteron |  |  | L, Tx |  |
+| ARNI |  |  | L, Tx |  |
+| SGLT2 |  |  | L, Tx |  |
+
+# Sonstige Parameter
+
+| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|----|----|----|----|----|
+| Mechanische Beatmung |  |  | L, Tx |  |
+| Inotropikaabhängigkeit |  |  | L, Tx |  |
+| PCWP | Pulmonary Capillary Wedge Pressure |  | L, Tx |  |
+| CI | Cardiac Index |  | L, Tx |  |
+| PVR |  |  | L, Tx |  |
+| LVEF | Left Ventricular Ejection Fraction |  | L, Tx |  |
+| Stationäre Behandlungen wegen Herzinsuffizienz |  |  | L, Tx |  |
+
+# Begleiterkrankungen
+
+| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|----|----|----|----|----|
+| Diabetes Mellitus |  |  | L |  |
+| Diabetische Sekundärkomplikation Polyneuropathie |  |  | L |  |
+| Diabetische Sekundärkomplikation Auge |  |  | L |  |
+| PAVK |  |  | L |  |
+| CAVK |  |  | L |  |
+| ICD | Implantable Cardioverter-Defibrillator |  | L |  |
+| Schockabgabe |  |  | L |  |
+| CRT | Cardiac Resynchronization Therapy |  | L, Tx |  |
+| Z.n. Schlaganfall |  |  | L |  |
 
 # Voroperationen
 
-# Labor
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
+| Kardiale Voroperationen |  |  | L |  |
+| Kardiale Voroperationen - angeborene Vitien |  |  | L |  |
+| Kardiale Voroperationen - Koronarchirurgie |  |  | L |  |
+| Kardiale Voroperationen - permanente MCS |  |  | L |  |
+| Z.n. OP/Intervention an der Aortenklappe |  |  | L, Tx |  |
+| Z.n. OP/Intervention an der Mitralklappe |  |  | L, Tx |  |
+| Z.n. OP/Intervention an der Pulmonalklappe |  |  | L, Tx |  |
+| Z.n. OP/Intervention an der Trikuspidalklappe |  |  | L, Tx |  |
+
+# Mechanische Kreislaufunterstützung
+
+| Variable                       | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|--------------------------------|--------------|---------|-----------|---------|
+| MCS dauerhaft - Permanente MCS |              |         | Tx        |         |
+| Datum der Implantation         |              |         | Tx        |         |
+
+# Spenderdaten
+
+| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|----|----|----|----|----|
+| Geschlecht |  |  | Tx |  |
+| Gewicht |  | kg | Tx |  |
+| Größe |  | cm | Tx |  |
+| Spenderalter |  | Jahren | Tx |  |
+| Komplette Ischämiezeit |  | Minuten | Tx |  |
+| Zeit außerhalb des Körpers (out of body time) |  | Minuten | Tx |  |
+| Perfusionssystem OCS |  |  | Tx |  |
+| Perfusionssystem Xvivo |  |  | Tx |  |
+
+# Legende
+
+L = Listung, Tx = Transplantation

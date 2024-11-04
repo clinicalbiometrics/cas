@@ -2,8 +2,10 @@
 title: "CAS (Cardiac Allocation Score): Online-Manual zur Dateneingabe"
 ---
 
-Auf dieser Seite finden Sie allgemeine Hinweise und Antworten zu häufig gestellten Fragen zur Dateneingabe im Projekt "CAS - Cardiac Allocation Score".
+### **Willkommen auf der Hilfeseite zur Dateneingabe für das Projekt "CAS - Cardiac Allocation Score"**
 
-Die Seite wird laufend aktualisiert, um häufige auftretende Fragen während der Dateneingabe für alle zugänglich zu machen.
+Auf dieser Seite finden Sie allgemeine Hinweise und Antworten auf häufig gestellte Fragen zur Dateneingabe im Projekt "CAS - Cardiac Allocation Score". Die Seite wird laufend aktualisiert, um häufig auftretende Fragen zu beantworten und das Eingabeprozedere zu erleichtern. Bitte schauen Sie regelmäßig vorbei, um die neuesten Informationen und Hinweise zu erhalten.
 
-Hier sind die wichtigsten Dinge:
+Hier sind die wichtigsten Links:
+
+-   [Link zur Dateneingabe](https://txregister.terraconnect.de/empfaenger)

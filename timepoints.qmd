@@ -1,3 +1,43 @@
 ---
 title: "Zeitpunkte"
 ---
+
+Es gibt 3 relevante Zeitpunkte der Datenerfassung:
+
+# Aufbau der Eingabemaske
+
+![](images/Zeitpunkte-01.png)
+
+# Zeitraum
+
+Der Zeitraum bezieht sich auf den gesamten Beobachtungszeitraum des Cas_Projektes, vom 01.01.2006 bis 31.12.2023.
+
+# Zeitpunkte
+
+Die Zeitpunkte beziehen sich auf die Zeitpunkte der Datenerhebung eines Patienten.
+
+### Listung
+
+Beginn der Datenerhebung ist mit Beginn der erstmaligen Aufnahme in die Warteliste.
+
+Eine erneute Aufnahme in die Warteliste nach einer erfolten Transplantation ist auch eine erstmalige Aufnahme in die Warteliste. Damit beginnt auch die Datenerhebung erneut. Weitere Informationen hierzu finden Sie unter dem Reiter **"Episoden".**
+
+Variablen die sich auf den Zeitpunkt der Listung beziehen sind in der Dateneingabemaske ***links*** angeordnet.
+
+### Transplantation
+
+Eine Transplantation markiert einen weiteren wichtigen Zeitpunkt der Datenerhebung. Die Variablen, die jeweils dem zum Zeitpunkt der Listung oder dem Zeitpunkt der Transplantation zugeordnet werden, finden Sie unter dem Reiter **"Variablen".**
+
+Diesen Zeitpunkt gibt es nicht für jeden Patienten.
+
+Variablen die sich auf den Zeitpunkt der Transplantation beziehen sind in der Dateneingabemaske ***rechts*** angeordnet.
+
+### Ende der Beobachtung
+
+Der jeweilige Zeitraum der Beobachtung kann auf 3 Arten:
+
+1.  Zeitpunkt der letzen Datenerhebung (last seen alive): der letzte Dokumentierte Zeitpunkt an dem bekannt ist, der Patient lebt.
+
+2.  Patient verstorben
+
+3.  Ende des Beobachtungszeitraums des CAS-Projektes: in diesem Fall bitte unter Zeitpunkt der letzen Datenerhebung 31.12.2023 eintragen.
