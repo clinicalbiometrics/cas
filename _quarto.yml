@@ -12,8 +12,12 @@ website:
         text: Einschlusskriterien
       - href: timepoints.qmd
         text: Zeitpunkte
+      - href: episodes.qmd
+        text: Episoden
       - href: variables.qmd
         text: Variablen
+      - href: faq.qmd
+        text: FAQ
       - about.qmd
 
 format:

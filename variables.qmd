@@ -1,3 +1,17 @@
 ---
 title: "Variablen"
 ---
+
+# Demografie
+
+| Variable | Beschreibung | Einheit | Hinweis |
+|----------|--------------|---------|---------|
+|          |              |         |         |
+|          |              |         |         |
+|          |              |         |         |
+
+# Vorerkrankungen
+
+# Voroperationen
+
+# Labor

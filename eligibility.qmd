@@ -2,10 +2,14 @@
 title: "Einschlusskriterien"
 ---
 
-Die Einschlusskriterien für das Projekt sind:
+Die Ein- und Ausschlusskriterien entsprechen den Kriterien der Aufnahme auf die Warteliste. Die speziellen Einschlusskriterien für das Projekt sind somit:
 
 -   Erstmalige Aufnahme auf die Warteliste ab 2006 bis Ende 2023
 
+-   Volljährigkeit bei Aufnahme auf die Warteliste ($\geq$ 18 Jahre)
+
+Daher sind keine weiteren Überprüfungen notwendig außer den beiden oben genannten Punkten.
+
 -   Keine Rolle spielt, ob der/die Patient:in nur auf die Warteliste aufgenommen wurde, oder auch transplantiert wurde
 
--   Ebenfalls keine Rolle spielt die Überlebensdauer
+-   Ebenfalls keine Rolle spielt die Überlebensdauer oder die Länge der Nachbeobachtung
