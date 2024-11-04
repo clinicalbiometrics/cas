@@ -4,8 +4,6 @@ title: "Zeitpunkte"
 
 Es gibt 3 relevante Zeitpunkte der Datenerfassung:
 
-# Aufbau der Eingabemaske
-
 ![](images/Zeitpunkte-01.png)
 
 # Zeitraum
@@ -14,9 +12,9 @@ Der Zeitraum bezieht sich auf den gesamten Beobachtungszeitraum des Cas_Projekte
 
 # Zeitpunkte
 
-Die Zeitpunkte beziehen sich auf die Zeitpunkte der Datenerhebung eines Patienten.
+Die 3 Zeitpunkte beziehen sich auf die Zeitpunkte der Datenerhebung eines Patienten.
 
-### Listung
+1.  **Listung**
 
 Beginn der Datenerhebung ist mit Beginn der erstmaligen Aufnahme in die Warteliste.
 
@@ -24,7 +22,7 @@ Eine erneute Aufnahme in die Warteliste nach einer erfolten Transplantation ist 
 
 Variablen die sich auf den Zeitpunkt der Listung beziehen sind in der Dateneingabemaske ***links*** angeordnet.
 
-### Transplantation
+2.  **Transplantation**
 
 Eine Transplantation markiert einen weiteren wichtigen Zeitpunkt der Datenerhebung. Die Variablen, die jeweils dem zum Zeitpunkt der Listung oder dem Zeitpunkt der Transplantation zugeordnet werden, finden Sie unter dem Reiter **"Variablen".**
 
@@ -32,7 +30,7 @@ Diesen Zeitpunkt gibt es nicht für jeden Patienten.
 
 Variablen die sich auf den Zeitpunkt der Transplantation beziehen sind in der Dateneingabemaske ***rechts*** angeordnet.
 
-### Ende der Beobachtung
+3.  **Ende der Beobachtung**
 
 Der jeweilige Zeitraum der Beobachtung kann auf 3 Arten:
 
@@ -41,3 +39,13 @@ Der jeweilige Zeitraum der Beobachtung kann auf 3 Arten:
 2.  Patient verstorben
 
 3.  Ende des Beobachtungszeitraums des CAS-Projektes: in diesem Fall bitte unter Zeitpunkt der letzen Datenerhebung 31.12.2023 eintragen.
+
+# Zeitfenster
+
+Die Zeitfenster umfassen festgelegte Zeitpunkte. Da nicht immer alle Informationen zu einem bestimmten Zeitpunkt (z. B. am Tag der Aufnahme auf die Warteliste) vorliegen, gibt es Zeitfenster. Diese definieren den zeitlichen Rahmen, in dem Informationen dem jeweiligen Zeitpunkt zugeordnet werden können. Falls mehrere Informationen für dieselbe Variable zum gleichen Zeitpunkt vorliegen, sollte die Information ausgewählt und in die Eingabemaske eingetragen werden, die dem entsprechenden Zeitpunkt am nächsten liegt.
+
+1.  **Listung:**
+
+2.  **Transplantation:**
+
+3.  **Ende der Beobachtung:** hat keine Variablen, außer dem konkreten Datum

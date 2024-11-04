@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.32">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-29dedaace5d8918e049944c60b75f171.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -127,8 +127,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#zeitraum" id="toc-zeitraum" class="nav-link active" data-scroll-target="#zeitraum">Zeitraum</a></li>
+  <li><a href="#zeitpunkte" id="toc-zeitpunkte" class="nav-link" data-scroll-target="#zeitpunkte">Zeitpunkte</a></li>
+  <li><a href="#zeitfenster" id="toc-zeitfenster" class="nav-link" data-scroll-target="#zeitfenster">Zeitfenster</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -152,8 +160,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Es gibt 3 relevante Zeitpunkte der Datenerfassung:</p>
+<p><img src="images/Zeitpunkte-01.png" class="img-fluid"></p>
+<section id="zeitraum" class="level1">
+<h1>Zeitraum</h1>
+<p>Der Zeitraum bezieht sich auf den gesamten Beobachtungszeitraum des Cas_Projektes, vom 01.01.2006 bis 31.12.2023.</p>
+</section>
+<section id="zeitpunkte" class="level1">
+<h1>Zeitpunkte</h1>
+<p>Die 3 Zeitpunkte beziehen sich auf die Zeitpunkte der Datenerhebung eines Patienten.</p>
+<ol type="1">
+<li><strong>Listung</strong></li>
+</ol>
+<p>Beginn der Datenerhebung ist mit Beginn der erstmaligen Aufnahme in die Warteliste.</p>
+<p>Eine erneute Aufnahme in die Warteliste nach einer erfolten Transplantation ist auch eine erstmalige Aufnahme in die Warteliste. Damit beginnt auch die Datenerhebung erneut. Weitere Informationen hierzu finden Sie unter dem Reiter <strong>“Episoden”.</strong></p>
+<p>Variablen die sich auf den Zeitpunkt der Listung beziehen sind in der Dateneingabemaske <strong><em>links</em></strong> angeordnet.</p>
+<ol start="2" type="1">
+<li><strong>Transplantation</strong></li>
+</ol>
+<p>Eine Transplantation markiert einen weiteren wichtigen Zeitpunkt der Datenerhebung. Die Variablen, die jeweils dem zum Zeitpunkt der Listung oder dem Zeitpunkt der Transplantation zugeordnet werden, finden Sie unter dem Reiter <strong>“Variablen”.</strong></p>
+<p>Diesen Zeitpunkt gibt es nicht für jeden Patienten.</p>
+<p>Variablen die sich auf den Zeitpunkt der Transplantation beziehen sind in der Dateneingabemaske <strong><em>rechts</em></strong> angeordnet.</p>
+<ol start="3" type="1">
+<li><strong>Ende der Beobachtung</strong></li>
+</ol>
+<p>Der jeweilige Zeitraum der Beobachtung kann auf 3 Arten:</p>
+<ol type="1">
+<li><p>Zeitpunkt der letzen Datenerhebung (last seen alive): der letzte Dokumentierte Zeitpunkt an dem bekannt ist, der Patient lebt.</p></li>
+<li><p>Patient verstorben</p></li>
+<li><p>Ende des Beobachtungszeitraums des CAS-Projektes: in diesem Fall bitte unter Zeitpunkt der letzen Datenerhebung 31.12.2023 eintragen.</p></li>
+</ol>
+</section>
+<section id="zeitfenster" class="level1">
+<h1>Zeitfenster</h1>
+<p>Die Zeitfenster umfassen festgelegte Zeitpunkte. Da nicht immer alle Informationen zu einem bestimmten Zeitpunkt (z. B. am Tag der Aufnahme auf die Warteliste) vorliegen, gibt es Zeitfenster. Diese definieren den zeitlichen Rahmen, in dem Informationen dem jeweiligen Zeitpunkt zugeordnet werden können. Falls mehrere Informationen für dieselbe Variable zum gleichen Zeitpunkt vorliegen, sollte die Information ausgewählt und in die Eingabemaske eingetragen werden, die dem entsprechenden Zeitpunkt am nächsten liegt.</p>
+<ol type="1">
+<li><p><strong>Listung:</strong></p></li>
+<li><p><strong>Transplantation:</strong></p></li>
+<li><p><strong>Ende der Beobachtung:</strong> hat keine Variablen, außer dem konkreten Datum</p></li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
