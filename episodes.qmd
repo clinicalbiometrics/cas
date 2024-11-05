@@ -10,4 +10,4 @@ Das Eingabe Feld "Episode" zählt die Anzahl der Listungen ("erstmalige" Aufnahm
 
 wieder auf die Warteliste gesetzt werden muss. Durch die neuerliche Listung beginnt eine neue Episode.
 
-![](images/Episode-01.png)
+![](images/Episode-02.png)
