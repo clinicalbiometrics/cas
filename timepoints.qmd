@@ -16,7 +16,7 @@ Die 3 Zeitpunkte beziehen sich auf die Zeitpunkte der Datenerhebung eines Patien
 
 1.  **Listung**
 
-Beginn der Datenerhebung ist mit Beginn der erstmaligen Aufnahme in die Warteliste.
+Beginn der Datenerhebung ist mit Beginn der "erstmaligen" Aufnahme in die Warteliste.
 
 Eine erneute Aufnahme in die Warteliste nach einer erfolten Transplantation ist auch eine erstmalige Aufnahme in die Warteliste. Damit beginnt auch die Datenerhebung erneut. Weitere Informationen hierzu finden Sie unter dem Reiter **"Episoden".**
 
