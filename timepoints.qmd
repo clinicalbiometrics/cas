@@ -8,7 +8,7 @@ Es gibt 3 relevante Zeitpunkte der Datenerfassung:
 
 # Zeitraum
 
-Der Zeitraum bezieht sich auf den gesamten Beobachtungszeitraum des Cas_Projektes, vom 01.01.2006 bis 31.12.2023.
+Der Zeitraum bezieht sich auf den gesamten Beobachtungszeitraum des Cas-Projektes, vom 01.01.2006 bis 31.12.2023.
 
 # Zeitpunkte
 
@@ -42,10 +42,16 @@ Der jeweilige Zeitraum der Beobachtung kann auf 3 Arten:
 
 # Zeitfenster
 
-Die Zeitfenster umfassen festgelegte Zeitpunkte. Da nicht immer alle Informationen zu einem bestimmten Zeitpunkt (z. B. am Tag der Aufnahme auf die Warteliste) vorliegen, gibt es Zeitfenster. Diese definieren den zeitlichen Rahmen, in dem Informationen dem jeweiligen Zeitpunkt zugeordnet werden können. Falls mehrere Informationen für dieselbe Variable zum gleichen Zeitpunkt vorliegen, sollte die Information ausgewählt und in die Eingabemaske eingetragen werden, die dem entsprechenden Zeitpunkt am nächsten liegt.
+Die Zeitfenster umfassen die festgelegten Zeitpunkte (siehe oben). Da nicht immer alle Informationen zu einem bestimmten Zeitpunkt (z. B. am Tag der Listung) vorliegen, gibt es Zeitfenster. Diese definieren den zeitlichen Rahmen, in dem Informationen dem jeweiligen Zeitpunkt zugeordnet werden können. Falls mehrere Informationen für dieselbe Variable zum gleichen Zeitpunkt vorliegen, sollte die Information ausgewählt und in die Eingabemaske eingetragen werden, die **dem entsprechenden Zeitpunkt am nächsten liegt**.
 
-1.  **Listung:**
++-------------------------+--------------------+---------------------+
+| Zeitpunkt               | *vor* d. Zeitpunkt | *nach* d. Zeitpunkt |
++=========================+====================+=====================+
+| 1.  Listung             | 4 Wochen           | 1 Woche             |
++-------------------------+--------------------+---------------------+
+| 2.  Transplantation     | 4 Wochen           | \-                  |
++-------------------------+--------------------+---------------------+
+| 3.  Ende d. Beobachtung | \-                 | \-                  |
++-------------------------+--------------------+---------------------+
 
-2.  **Transplantation:**
-
-3.  **Ende der Beobachtung:** hat keine Variablen, außer dem konkreten Datum
+: ![](images/Zeit-raum-punkt-fenster.png)

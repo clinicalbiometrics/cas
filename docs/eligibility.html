@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -152,21 +181,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Erstellt von:<br>
-Georg Heinze und Leonie Lenz-Seraphin<br>
-<a href="https://www.meduniwien.ac.at" title="MedUni Wien">Medizinische Universität Wien</a><br>
-<a href="https://data-science.meduniwien.ac.at" title="Zentrum für Medical Data Science">Zentrum für Medical Data Science</a><br>
-<a href="https://data-science.meduniwien.ac.at/kb">Institut für Klinische Biometrie</a></p>
-<p>Spitalgasse 23<br>
-A-1090 Wien</p>
-<p>Bei speziellen Fragen können Sie sich gerne an die E-mail-Adresse <a href="mailto:cas@meduniwien.ac.at">cas@meduniwien.ac.at</a> wenden.</p>
-<p>Letzte Änderungen: 4. 11. 2024.</p>
-<!-- Die Ein- und Ausschlusskriterien entsprechen den Kriterien der Aufnahme auf die Warteliste. Die speziellen Einschlusskriterien für das Projekt sind somit: -->
-<!-- -   Erstmalige Aufnahme auf die Warteliste ab 2006 bis Ende 2023 -->
-<!-- -   Volljährigkeit bei Aufnahme auf die Warteliste ($\geq$ 18 Jahre) -->
-<!-- Daher sind keine weiteren Überprüfungen notwendig außer den beiden oben genannten Punkten. -->
-<!-- -   Keine Rolle spielt, ob der/die Patient:in nur auf die Warteliste aufgenommen wurde, oder auch transplantiert wurde -->
-<!-- -   Ebenfalls keine Rolle spielt die Überlebensdauer oder die Länge der Nachbeobachtung -->
+<p>Die Ein- und Ausschlusskriterien entsprechen den Kriterien der Aufnahme auf die Warteliste. Die speziellen Einschlusskriterien für das Projekt sind somit:</p>
+<ul>
+<li><p>Erstmalige Aufnahme auf die Warteliste ab 2006 bis Ende 2023</p></li>
+<li><p>Volljährigkeit bei Aufnahme auf die Warteliste (<span class="math inline">\(\geq\)</span> 18 Jahre)</p></li>
+</ul>
+<p>Daher sind keine weiteren Überprüfungen notwendig außer den beiden oben genannten Punkten.</p>
+<ul>
+<li><p>Keine Rolle spielt, ob der/die Patient:in nur auf die Warteliste aufgenommen wurde, oder auch transplantiert wurde</p></li>
+<li><p>Ebenfalls keine Rolle spielt die Überlebensdauer oder die Länge der Nachbeobachtung</p></li>
+</ul>
 
 
 
