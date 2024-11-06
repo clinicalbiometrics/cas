@@ -2,15 +2,15 @@
 title: "Einschlusskriterien"
 ---
 
-Die Ein- und Ausschlusskriterien entsprechen den Kriterien der Aufnahme auf die Warteliste. Die speziellen Einschlusskriterien für das Projekt sind somit:
+### Die Ein- und Ausschlusskriterien entsprechen den Kriterien der Aufnahme auf die Warteliste. Die speziellen Einschlusskriterien für das Projekt sind somit:
 
 -   Erstmalige Aufnahme auf die Warteliste ab 2006 bis Ende 2023
 
 -   Volljährigkeit bei Aufnahme auf die Warteliste ($\geq$ 18 Jahre)
 
-Daher sind keine weiteren Überprüfungen notwendig außer den beiden oben genannten Punkten.\\
+Daher sind keine weiteren Überprüfungen notwendig außer den beiden oben genannten Punkten.
 
-Für die statistischen Berechnung des CAS werden die Daten **ALLER** Patienten benötigt:
+### Für die statistischen Berechnung des CAS werden die Daten **ALLER** Patienten benötigt:
 
 -   keine Rolle spielt, ob der Patient nur auf die Warteliste aufgenommen wurde, oder auch transplantiert wurde,
 

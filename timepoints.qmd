@@ -2,8 +2,6 @@
 title: "Zeitraum, -punkt, -fenster"
 ---
 
-Es gibt 3 relevante Zeitpunkte der Datenerfassung:
-
 ![](images/Zeitraum-punkt.png)
 
 # Zeitraum
