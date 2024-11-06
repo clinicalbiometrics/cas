@@ -8,7 +8,7 @@ Die Ein- und Ausschlusskriterien entsprechen den Kriterien der Aufnahme auf die 
 
 -   Volljährigkeit bei Aufnahme auf die Warteliste ($\geq$ 18 Jahre)
 
-Daher sind keine weiteren Überprüfungen notwendig außer den beiden oben genannten Punkten.
+Daher sind keine weiteren Überprüfungen notwendig außer den beiden oben genannten Punkten.\\
 
 Für die statistischen Berechnung des CAS werden die Daten **ALLER** Patienten benötigt:
 
