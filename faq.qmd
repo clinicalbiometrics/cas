@@ -6,4 +6,8 @@ title: "FAQ"
 
 ### Ist es für die Dateneingabe relevant, wenn ein Patient vor 2006 bereits transplantiert wurde und im Beobachtungszeitrum des CAS-Projektes in die Warteliste aufgenommen wird?
 
-Das ist für dei Dateneingabe nicht relevant. Alles was vor 2006 über einen Patienten bekannt ist, ist nicht relevant. Wenn ein Patient vor 2006 transplantiert wurde und im Beobachtungszeitraum von Anfang 2006 bis Ende 2023 erneut in die Warteliste aufgenommen wird, so ist dies seine Episode 1. Mehr Informationen hierzu finden Sie unter dem Reiter **"Episoden"**.
+Nein, das ist für die Dateneingabe nicht relevant. Episoden, die vor 2006 liegen, werden nicht berücksichtigt. Wenn ein Patient vor 2006 transplantiert wurde und im Beobachtungszeitraum von Anfang 2006 bis Ende 2023 erneut auf die Warteliste aufgenommen wird, wird dies als seine Episode 1 betrachtet. Weitere Informationen hierzu finden Sie im Abschnitt "Episoden".
+
+### Welches Zentrum macht die Dateneingabe, wenn ein:e Patient:in zwischen zwei Episoden von einem Zentrum zu einem anderen umzieht?
+
+In diesem Fall ist es wichtig, dass das spätere Zentrum die korrekte Episoden-Anzahl einträgt. Darüber hinaus sollten beide Zentren jeweils ihre Information für die entsprechende Episode eintragen. Hierfür ist es essentiell, dass die gleiche ID verwendet wird. In diesem Fall kontaktieren Sie und bitte. Unsere Kontaktdaten finden Sie im Abschnitt "Startseite".

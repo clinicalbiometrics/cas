@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CAS (Cardiac Allocation Score): Online-Manual zur Dateneingabe",
     "section": "",
-    "text": "Willkommen auf der Hilfeseite zur Dateneingabe für das Projekt “CAS - Cardiac Allocation Score”\nAuf dieser Seite finden Sie allgemeine Hinweise und Antworten auf häufig gestellte Fragen zur Dateneingabe im Projekt “CAS - Cardiac Allocation Score”. Die Seite wird laufend aktualisiert, um häufig auftretende Fragen zu beantworten und das Eingabeprozedere zu erleichtern. Bitte schauen Sie regelmäßig vorbei, um die neuesten Informationen und Hinweise zu erhalten.\nHier sind die wichtigsten Informationen:\n\nLink zur Dateneingabe"
+    "text": "Willkommen auf der Hilfeseite zur Dateneingabe für das Projekt “CAS - Cardiac Allocation Score”\nAuf dieser Seite finden Sie allgemeine Hinweise und Antworten auf häufig gestellte Fragen zur Dateneingabe im Projekt “CAS - Cardiac Allocation Score”. Die Seite wird laufend aktualisiert, um häufig auftretende Fragen zu beantworten und das Eingabeprozedere zu erleichtern. Bitte schauen Sie regelmäßig vorbei, um die neuesten Informationen und Hinweise zu erhalten.\nHier sind die wichtigsten Informationen:\n\nLink zur Dateneingabe\nSo können Sie uns erreichen: cas@meduniwien.ac.at"
   },
   {
     "objectID": "eligibility.html",
@@ -32,7 +32,7 @@
     "href": "faq.html",
     "title": "FAQ",
     "section": "",
-    "text": "Häufig gestellte Fragen\n\nIst es für die Dateneingabe relevant, wenn ein Patient vor 2006 bereits transplantiert wurde und im Beobachtungszeitrum des CAS-Projektes in die Warteliste aufgenommen wird?\nDas ist für dei Dateneingabe nicht relevant. Alles was vor 2006 über einen Patienten bekannt ist, ist nicht relevant. Wenn ein Patient vor 2006 transplantiert wurde und im Beobachtungszeitraum von Anfang 2006 bis Ende 2023 erneut in die Warteliste aufgenommen wird, so ist dies seine Episode 1. Mehr Informationen hierzu finden Sie unter dem Reiter “Episoden”."
+    "text": "Häufig gestellte Fragen\n\nIst es für die Dateneingabe relevant, wenn ein Patient vor 2006 bereits transplantiert wurde und im Beobachtungszeitrum des CAS-Projektes in die Warteliste aufgenommen wird?\nNein, das ist für die Dateneingabe nicht relevant. Episoden, die vor 2006 liegen, werden nicht berücksichtigt. Wenn ein Patient vor 2006 transplantiert wurde und im Beobachtungszeitraum von Anfang 2006 bis Ende 2023 erneut auf die Warteliste aufgenommen wird, wird dies als seine Episode 1 betrachtet. Weitere Informationen hierzu finden Sie im Abschnitt “Episoden”.\n\n\nWelches Zentrum macht die Dateneingabe, wenn ein:e Patient:in zwischen zwei Episoden von einem Zentrum zu einem anderen umzieht?\nIn diesem Fall ist es wichtig, dass das spätere Zentrum die korrekte Episoden-Anzahl einträgt. Darüber hinaus sollten beide Zentren jeweils ihre Information für die entsprechende Episode eintragen. Hierfür ist es essentiell, dass die gleiche ID verwendet wird. In diesem Fall kontaktieren Sie und bitte. Unsere Kontaktdaten finden Sie im Abschnitt “Startseite”."
   },
   {
     "objectID": "timepoints.html",
