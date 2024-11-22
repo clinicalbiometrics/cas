@@ -10,7 +10,9 @@ title: "Einschlusskriterien"
 
 Daher sind keine weiteren Überprüfungen notwendig außer den beiden oben genannten Punkten.
 
-### Für die statistischen Berechnung des CAS werden die Daten **ALLER** Patienten benötigt:
+### Für die statistischen Berechnung des CAS werden die Daten **ALLER\*** Patient:innen benötigt:
+
+\***aller** Patient:innen bezieht sich auf die Ihnen bereitgestellte Liste der einzugebenden Patient:innen
 
 -   keine Rolle spielt, ob der Patient nur auf die Warteliste aufgenommen wurde, oder auch transplantiert wurde,
 

@@ -6,11 +6,15 @@ title: "Zeitraum, -punkt, -fenster"
 
 # Zeitraum
 
-Der Zeitraum bezieht sich auf den gesamten Beobachtungszeitraum des Cas-Projektes, vom 01.01.2006 bis 31.12.2023.
+Der Zeitraum bezieht sich auf den gesamten Beobachtungszeitraum des CAS-Projektes, vom 01.01.2006 bis 31.12.2023.
 
 # Zeitpunkte
 
-Die 3 Zeitpunkte beziehen sich auf die Zeitpunkte der Datenerhebung eines Patienten.
+Die 3 Zeitpunkte beziehen sich auf die Zeitpunkte der Datenerhebung eines Patienten. Diese werden im eCRF ganzen oben abgefragt. Die obrige Grafik würde im eCRF wie folt eingegeben werden:
+
+![Zeitpunkte im eCRF](images/Zeitpunkte-eCRF.png)
+
+Bitte geben Sie entweder "Zeitpunkt der letzten Datenerhebung (last seen alive)" **ODER** "Patient verstorben" ein.
 
 1.  **Listung**
 
@@ -19,6 +23,12 @@ Beginn der Datenerhebung ist mit Beginn der "erstmaligen" Aufnahme in die Wartel
 Eine erneute Aufnahme in die Warteliste nach einer erfolten Transplantation ist auch eine erstmalige Aufnahme in die Warteliste. Damit beginnt auch die Datenerhebung erneut. Weitere Informationen hierzu finden Sie unter dem Reiter **"Episoden".**
 
 Variablen die sich auf den Zeitpunkt der Listung beziehen sind in der Dateneingabemaske ***links*** angeordnet.
+
+**Statusänderung**
+
+Änderungen des Statuses auf der Warteliste werden in dem Feld "Statusänderung" eingetragen. In diesem Feld wird auch der 2. Zeitpunkt "Transplantation" eingetragen. Durch Klicken auf "Eintrag hinzufügen" kann eine Änderungen eintragen werden. Die folgenden Änderungen können ausgewählt werden:
+
+![Statusänderung](images/Statusänderungen-eCRF.png)
 
 2.  **Transplantation**
 
