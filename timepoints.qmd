@@ -56,8 +56,6 @@ Diesen Zeitpunkt gibt es nicht für jeden Patienten.
 
 Variablen die sich auf den Zeitpunkt der Transplantation beziehen sind in der Dateneingabemaske ***rechts*** angeordnet.
 
-![](images/links-rechts.png)
-
 3.  **Ende der Beobachtung**
 
 Der jeweilige Zeitraum der Beobachtung kann auf 3 Arten:
