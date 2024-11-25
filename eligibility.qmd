@@ -2,7 +2,9 @@
 title: "Einschlusskriterien"
 ---
 
-### Die Ein- und Ausschlusskriterien entsprechen den Kriterien der Aufnahme auf die Warteliste. Die speziellen Einschlusskriterien für das Projekt sind somit:
+**Die Ein- und Ausschlusskriterien entsprechen den Kriterien der Aufnahme auf die Warteliste.**
+
+### Die speziellen Einschlusskriterien für das Projekt sind somit:
 
 -   Erstmalige Aufnahme auf die Warteliste ab 2006 bis Ende 2023
 
