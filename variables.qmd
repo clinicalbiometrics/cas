@@ -131,4 +131,4 @@ title: "Variablen"
 
 # Legende
 
-L = Listung, Tx = Transplantation
+L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung
