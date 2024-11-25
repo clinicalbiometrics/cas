@@ -170,9 +170,10 @@ window.Quarto = {
   <li><a href="#sonstige-medikamentöse-therapie" id="toc-sonstige-medikamentöse-therapie" class="nav-link" data-scroll-target="#sonstige-medikamentöse-therapie">Sonstige medikamentöse Therapie</a></li>
   <li><a href="#sonstige-parameter" id="toc-sonstige-parameter" class="nav-link" data-scroll-target="#sonstige-parameter">Sonstige Parameter</a></li>
   <li><a href="#begleiterkrankungen" id="toc-begleiterkrankungen" class="nav-link" data-scroll-target="#begleiterkrankungen">Begleiterkrankungen</a></li>
-  <li><a href="#voroperationen" id="toc-voroperationen" class="nav-link" data-scroll-target="#voroperationen">Voroperationen</a></li>
+  <li><a href="#voroperationen-eingriffe" id="toc-voroperationen-eingriffe" class="nav-link" data-scroll-target="#voroperationen-eingriffe">Voroperationen / Eingriffe</a></li>
   <li><a href="#mechanische-kreislaufunterstützung" id="toc-mechanische-kreislaufunterstützung" class="nav-link" data-scroll-target="#mechanische-kreislaufunterstützung">Mechanische Kreislaufunterstützung</a></li>
   <li><a href="#spenderdaten" id="toc-spenderdaten" class="nav-link" data-scroll-target="#spenderdaten">Spenderdaten</a></li>
+  <li><a href="#perioperativer-verlauf" id="toc-perioperativer-verlauf" class="nav-link" data-scroll-target="#perioperativer-verlauf">Perioperativer Verlauf</a></li>
   <li><a href="#legende" id="toc-legende" class="nav-link" data-scroll-target="#legende">Legende</a></li>
   </ul>
 </nav>
@@ -232,6 +233,13 @@ window.Quarto = {
 <section id="statusänderung" class="level1">
 <h1>Statusänderung</h1>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 12%">
+<col style="width: 35%">
+<col style="width: 12%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -246,14 +254,14 @@ window.Quarto = {
 <td>Datum</td>
 <td></td>
 <td></td>
-<td></td>
+<td>zwischen L und Tx / EdB</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Listenstatus</td>
 <td></td>
 <td></td>
-<td></td>
+<td>zwischen L und Tx / EdB</td>
 <td></td>
 </tr>
 </tbody>
@@ -273,18 +281,32 @@ window.Quarto = {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Zeitpunkt de letzten Datenerhebung (last seen alive)</td>
+<td>Zeitpunkt der letzten Datenerhebung (last seen alive)</td>
 <td></td>
 <td></td>
-<td></td>
+<td>EdB</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Patient verstorben</td>
 <td></td>
 <td></td>
+<td>EdB</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Todesdatum</td>
 <td></td>
 <td></td>
+<td>EdB</td>
+<td>Erscheint, wenn Patient verstorben = Ja</td>
+</tr>
+<tr class="even">
+<td>Grund</td>
+<td></td>
+<td></td>
+<td>EdB</td>
+<td>Erscheint, wenn Patient verstorben = Ja</td>
 </tr>
 </tbody>
 </table>
@@ -435,21 +457,21 @@ window.Quarto = {
 <tr class="odd">
 <td>Natrium</td>
 <td></td>
-<td></td>
+<td>mol/l</td>
 <td>L, Tx</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Bilirubin</td>
 <td></td>
-<td>mg/dl <span class="math inline">\(\mu\)</span>mol/l</td>
+<td>mg/dl ODER <span class="math inline">\(\mu\)</span>mol/l</td>
 <td>L, Tx</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Serumkreatinin</td>
 <td></td>
-<td>mg/dl mmol/l</td>
+<td>mg/dl ODER mmol/l</td>
 <td>L, Tx</td>
 <td></td>
 </tr>
@@ -552,6 +574,13 @@ window.Quarto = {
 <section id="sonstige-parameter" class="level1">
 <h1>Sonstige Parameter</h1>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -579,37 +608,37 @@ window.Quarto = {
 <tr class="odd">
 <td>PCWP</td>
 <td>Pulmonary Capillary Wedge Pressure</td>
-<td></td>
+<td>mmHg</td>
 <td>L, Tx</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>CI</td>
 <td>Cardiac Index</td>
-<td></td>
+<td>l/min/m2</td>
 <td>L, Tx</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>PVR</td>
 <td></td>
-<td></td>
+<td>Weood Einheiten ODER dyn x sec x cm-5</td>
 <td>L, Tx</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>LVEF</td>
 <td>Left Ventricular Ejection Fraction</td>
-<td></td>
+<td>%</td>
 <td>L, Tx</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Stationäre Behandlungen wegen Herzinsuffizienz</td>
 <td></td>
-<td></td>
+<td>Anzahl</td>
 <td>L, Tx</td>
-<td></td>
+<td>Stationäre Behandlungen wegen Herzinsuffizienz zwischen Datum der Aufnahme in die Warteliste und letzter Datenerhebung <strong>bis maximal Transplantation.</strong></td>
 </tr>
 </tbody>
 </table>
@@ -663,27 +692,34 @@ window.Quarto = {
 <td></td>
 </tr>
 <tr class="even">
+<td>Anzahl der kardialen Voroperationen</td>
+<td></td>
+<td></td>
+<td>L</td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>ICD</td>
 <td>Implantable Cardioverter-Defibrillator</td>
 <td></td>
 <td>L</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Schockabgabe</td>
 <td></td>
 <td></td>
 <td>L</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>CRT</td>
 <td>Cardiac Resynchronization Therapy</td>
 <td></td>
 <td>L, Tx</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Z.n. Schlaganfall</td>
 <td></td>
 <td></td>
@@ -693,8 +729,8 @@ window.Quarto = {
 </tbody>
 </table>
 </section>
-<section id="voroperationen" class="level1">
-<h1>Voroperationen</h1>
+<section id="voroperationen-eingriffe" class="level1">
+<h1>Voroperationen / Eingriffe</h1>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -875,6 +911,57 @@ window.Quarto = {
 <td>Perfusionssystem Xvivo</td>
 <td></td>
 <td></td>
+<td>Tx</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="perioperativer-verlauf" class="level1">
+<h1>Perioperativer Verlauf</h1>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Beschreibung</th>
+<th>Einheit</th>
+<th>Zeitpunkt</th>
+<th>Hinweis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>System Infektion</td>
+<td></td>
+<td></td>
+<td>Tx</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Blutung</td>
+<td></td>
+<td></td>
+<td>Tx</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Apoplex</td>
+<td></td>
+<td></td>
+<td>Tx</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Apoplex / thomboembolische Komplikationen</td>
+<td></td>
+<td>Jahren</td>
+<td>Tx</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Allograftversagen</td>
+<td></td>
+<td>Minuten</td>
 <td>Tx</td>
 <td></td>
 </tr>
