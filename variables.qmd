@@ -11,17 +11,19 @@ title: "Variablen"
 
 # Statusänderung
 
-| Variable     | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|--------------|--------------|---------|-----------|---------|
-| Datum        |              |         |           |         |
-| Listenstatus |              |         |           |         |
+| Variable     | Beschreibung | Einheit | Zeitpunkt               | Hinweis |
+|--------------|--------------|---------|-------------------------|---------|
+| Datum        |              |         | zwischen L und Tx / EdB |         |
+| Listenstatus |              |         | zwischen L und Tx / EdB |         |
 
 # Follow-up/
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
 |----|----|----|----|----|
-| Zeitpunkt de letzten Datenerhebung (last seen alive) |  |  |  |  |
-| Patient verstorben |  |  |  |  |
+| Zeitpunkt der letzten Datenerhebung (last seen alive) |  |  | EdB |  |
+| Patient verstorben |  |  | EdB |  |
+| Todesdatum |  |  | EdB | Erscheint, wenn Patient verstorben = Ja |
+| Grund |  |  | EdB | Erscheint, wenn Patient verstorben = Ja |
 
 # Demographie
 
@@ -50,9 +52,9 @@ title: "Variablen"
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
 |----|----|----|----|----|
-| Natrium |  |  | L, Tx |  |
-| Bilirubin |  | mg/dl $\mu$mol/l | L, Tx |  |
-| Serumkreatinin |  | mg/dl mmol/l | L, Tx |  |
+| Natrium |  | mol/l | L, Tx |  |
+| Bilirubin |  | mg/dl ODER $\mu$mol/l | L, Tx |  |
+| Serumkreatinin |  | mg/dl ODER mmol/l | L, Tx |  |
 | Albumin |  | mg/dl | L, Tx |  |
 | INR | International Normalized Ratio |  | L, Tx |  |
 | PRA | Panel Reactive Antibodies |  | L, Tx |  |
@@ -76,11 +78,11 @@ title: "Variablen"
 |----|----|----|----|----|
 | Mechanische Beatmung |  |  | L, Tx |  |
 | Inotropikaabhängigkeit |  |  | L, Tx |  |
-| PCWP | Pulmonary Capillary Wedge Pressure |  | L, Tx |  |
-| CI | Cardiac Index |  | L, Tx |  |
-| PVR |  |  | L, Tx |  |
-| LVEF | Left Ventricular Ejection Fraction |  | L, Tx |  |
-| Stationäre Behandlungen wegen Herzinsuffizienz |  |  | L, Tx |  |
+| PCWP | Pulmonary Capillary Wedge Pressure | mmHg | L, Tx |  |
+| CI | Cardiac Index | l/min/m2 | L, Tx |  |
+| PVR |  | Weood Einheiten ODER dyn x sec x cm-5 | L, Tx |  |
+| LVEF | Left Ventricular Ejection Fraction | \% | L, Tx |  |
+| Stationäre Behandlungen wegen Herzinsuffizienz |  | Anzahl | L, Tx | Stationäre Behandlungen wegen Herzinsuffizienz zwischen Datum der Aufnahme in die Warteliste und letzter Datenerhebung **bis maximal Transplantation.** |
 
 # Begleiterkrankungen
 
@@ -91,12 +93,13 @@ title: "Variablen"
 | Diabetische Sekundärkomplikation Auge |  |  | L |  |
 | PAVK |  |  | L |  |
 | CAVK |  |  | L |  |
+| Anzahl der kardialen Voroperationen |  |  | L |  |
 | ICD | Implantable Cardioverter-Defibrillator |  | L |  |
 | Schockabgabe |  |  | L |  |
 | CRT | Cardiac Resynchronization Therapy |  | L, Tx |  |
 | Z.n. Schlaganfall |  |  | L |  |
 
-# Voroperationen
+# Voroperationen / Eingriffe
 
 | **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
 |:---|:---|:---|:---|:---|
@@ -129,6 +132,16 @@ title: "Variablen"
 | Perfusionssystem OCS |  |  | Tx |  |
 | Perfusionssystem Xvivo |  |  | Tx |  |
 
+# Perioperativer Verlauf
+
+| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|----|----|----|----|----|
+| System Infektion |  |  | Tx |  |
+| Blutung |  |  | Tx |  |
+| Apoplex |  |  | Tx |  |
+| Apoplex / thomboembolische Komplikationen |  | Jahren | Tx |  |
+| Allograftversagen |  | Minuten | Tx |  |
+
 # Legende
 
-L = Listung, Tx = Transplantation
+L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung
