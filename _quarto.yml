@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "CAS_Register"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Startseite
+      - href: eligibility.qmd
+        text: Einschlusskriterien
+      - href: timepoints.qmd
+        text: Zeitpunkte
+      - href: episodes.qmd
+        text: Episoden
+      - href: variables.qmd
+        text: Variablen
+      - href: faq.qmd
+        text: FAQ
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
