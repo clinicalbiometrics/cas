@@ -30,6 +30,24 @@ Variablen die sich auf den Zeitpunkt der Listung beziehen sind in der Dateneinga
 
 ![Statusänderung](images/Statusänderungen-eCRF.png)
 
+Nachfolgend auf die Statusänderungen
+
+-   transplantierbar
+
+-   transplantierbar high-urgency
+
+-   nicht transplantabel
+
+können alle zur Auswahl stehenden Statusänderungen ausgewählt werden.
+
+Auf die Statusänderungen
+
+-   transplantiert
+
+-   entfernt
+
+können keine weiteren Statusänderungen folgen, da nach diesen Statusänderungen eine neue [Episode](https://clinicalbiometrics.github.io/cas/episodes.html) beginnt.
+
 2.  **Transplantation**
 
 Eine Transplantation markiert einen weiteren wichtigen Zeitpunkt der Datenerhebung. Die Variablen, die jeweils dem zum Zeitpunkt der Listung oder dem Zeitpunkt der Transplantation zugeordnet werden, finden Sie unter dem Reiter **"Variablen".**
@@ -44,9 +62,9 @@ Der jeweilige Zeitraum der Beobachtung kann auf 3 Arten:
 
 1.  Zeitpunkt der letzen Datenerhebung (last seen alive): der letzte Dokumentierte Zeitpunkt an dem bekannt ist, der Patient lebt.
 
-2.  Patient verstorben
+2.  Patient verstorben: Durch die Auswahl "Ja" öffnen sich 2 neue Felder: "Todesdatum" und "Grund"
 
-3.  Ende des Beobachtungszeitraums des CAS-Projektes: in diesem Fall bitte unter Zeitpunkt der letzen Datenerhebung 31.12.2023 eintragen.
+3.  Ende des Beobachtungszeitraums des CAS-Projektes: in diesem Fall bitte unter "Zeitpunkt der letzen Datenerhebung" **31.12.2023** eintragen.
 
 # Zeitfenster
 
