@@ -16,7 +16,7 @@ title: "Variablen"
 | Datum        |              |         | zwischen L und Tx / EdB |         |
 | Listenstatus |              |         | zwischen L und Tx / EdB |         |
 
-# Follow-up/
+# Follow-up/ Ende der Datenerhebung
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
 |----|----|----|----|----|
@@ -75,7 +75,7 @@ title: "Variablen"
 # Sonstige Parameter
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----|----|----|----|----|
+|---------------|---------------|---------------|---------------|---------------|
 | Mechanische Beatmung |  |  | L, Tx |  |
 | Inotropikaabhängigkeit |  |  | L, Tx |  |
 | PCWP | Pulmonary Capillary Wedge Pressure | mmHg | L, Tx |  |
@@ -102,7 +102,7 @@ title: "Variablen"
 # Voroperationen / Eingriffe
 
 | **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
+|:--------------|:--------------|:--------------|:--------------|:--------------|
 | Kardiale Voroperationen |  |  | L |  |
 | Kardiale Voroperationen - angeborene Vitien |  |  | L |  |
 | Kardiale Voroperationen - Koronarchirurgie |  |  | L |  |
