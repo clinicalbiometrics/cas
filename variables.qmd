@@ -4,10 +4,10 @@ title: "Variablen"
 
 # Erstmalige Aufnahme in die Warteliste
 
-| Variable     | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|--------------|--------------|---------|-----------|---------|
-| Datum        |              |         | L         |         |
-| Listenstatus |              |         | L         |         |
+| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|----|----|----|----|----|
+| Datum |  |  | L |  |
+| Listenstatus |  |  | L | Wenn direkt mit Aufnahme auf die Warteliste ein HU-Antrag gestellt wurde und positiv entschieden, HU auswählen. |
 
 # Statusänderung
 
@@ -27,49 +27,48 @@ title: "Variablen"
 
 # Demographie
 
-| Variable                    | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|-----------------------------|--------------|---------|-----------|---------|
-| Zentrumseigene Patienten ID |              |         | L         |         |
-| Episode                     |              |         | L         |         |
-| Geburtsdatum (Monat)        |              |         | L         |         |
-| Geburtsdatum (Jahr)         |              |         | L         |         |
-| Geschlecht                  |              |         | L         |         |
-| Datum der Listung           |              |         | L         |         |
-| Datum der Transplantation   |              |         | Tx        |         |
-| Blutgruppe                  |              |         | L         |         |
-| Rhesusfaktor                |              |         | L         |         |
-| Geburtsdatum (Monat)        |              |         | L         |         |
-| Größe                       |              | cm      | L         |         |
-| Gewicht                     |              | kg      | L         |         |
+| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|-----------------------|-------------|-------------|-------------|-------------|
+| Zentrumseigene Patienten ID |  |  | L |  |
+| Episode | Anzahl der Aufnahmen auf die Warteliste |  | L | Für eine ausführliche Erklärung: siehe Reiter "Episode" |
+| Geburtsdatum (Monat) |  |  | L |  |
+| Geburtsdatum (Jahr) |  |  | L |  |
+| Geschlecht |  |  | L | Genetisch determiniertes Geschlecht angeben |
+| Datum der Listung |  |  | L |  |
+| Datum der Transplantation |  |  | Tx |  |
+| Blutgruppe |  |  | L |  |
+| Rhesusfaktor |  |  | L |  |
+| Größe |  | cm | L |  |
+| Gewicht |  | kg | L, Tx |  |
 
 # Niere
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----------|--------------|---------|-----------|---------|
-| Niere    |              |         | L, Tx     |         |
+|----|----|----|----|----|
+| Nierenersatzverfahren 2w vor |  |  | L, Tx | 2w = 2 Wochen vor L oder Tx |
 
 # Laborwerte
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
 |----|----|----|----|----|
-| Natrium |  | mol/l | L, Tx |  |
+| Natrium |  | mmol/l | L, Tx |  |
 | Bilirubin |  | mg/dl ODER $\mu$mol/l | L, Tx |  |
 | Serumkreatinin |  | mg/dl ODER mmol/l | L, Tx |  |
 | Albumin |  | mg/dl | L, Tx |  |
 | INR | International Normalized Ratio |  | L, Tx |  |
-| PRA | Panel Reactive Antibodies |  | L, Tx |  |
+| PRA | Panel Reactive Antibodies | \% | L, Tx |  |
 
 # Sonstige medikamentöse Therapie
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
 |----|----|----|----|----|
 | Marcumar - Therapie / Vitamin K - Antagonisten |  |  | L, Tx |  |
-| DOAK |  |  | L, Tx |  |
+| DOAK | Direkte orale Antikoagulanzien |  | L, Tx |  |
 | $\beta$-Blocker |  |  | L, Tx |  |
 | Sartane |  |  | L, Tx |  |
 | Diuretika |  |  | L, Tx |  |
 | Aldosteron |  |  | L, Tx |  |
-| ARNI |  |  | L, Tx |  |
+| ARNI | Angiotensin-Rezeptor-Neprilysin-Inhibitor |  | L, Tx |  |
 | SGLT2 |  |  | L, Tx |  |
 
 # Sonstige Parameter
@@ -80,9 +79,9 @@ title: "Variablen"
 | Inotropikaabhängigkeit |  |  | L, Tx |  |
 | PCWP | Pulmonary Capillary Wedge Pressure | mmHg | L, Tx |  |
 | CI | Cardiac Index | l/min/m2 | L, Tx |  |
-| PVR |  | Weood Einheiten ODER dyn x sec x cm-5 | L, Tx |  |
+| PVR |  | Wood Einheiten ODER dyn x sec x cm-5 | L, Tx |  |
 | LVEF | Left Ventricular Ejection Fraction | \% | L, Tx |  |
-| Stationäre Behandlungen wegen Herzinsuffizienz |  | Anzahl | L, Tx | Stationäre Behandlungen wegen Herzinsuffizienz zwischen Datum der Aufnahme in die Warteliste und letzter Datenerhebung **bis maximal Transplantation.** |
+| Stationäre Behandlungen wegen Herzinsuffizienz |  | Anzahl im letzten Jahr | L, Tx | innerhalb 12 Monate vor L und zwischen L und Tx |
 
 # Begleiterkrankungen
 
@@ -112,12 +111,12 @@ title: "Variablen"
 | Z.n. OP/Intervention an der Pulmonalklappe |  |  | L, Tx |  |
 | Z.n. OP/Intervention an der Trikuspidalklappe |  |  | L, Tx |  |
 
-# Mechanische Kreislaufunterstützung
+# Mechanische Kreislaufunterstützung - seit Listung
 
-| Variable                       | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|--------------------------------|--------------|---------|-----------|---------|
-| MCS dauerhaft - Permanente MCS |              |         | Tx        |         |
-| Datum der Implantation         |              |         | Tx        |         |
+| Variable                       | Beschreibung | Einheit | Zeitpunkt    | Hinweis |
+|------------------------|------------|------------|------------|------------|
+| MCS dauerhaft - Permanente MCS |              |         | zw. L und Tx |         |
+| Datum der Implantation         |              |         | zw. L und Tx |         |
 
 # Spenderdaten
 
@@ -126,7 +125,7 @@ title: "Variablen"
 | Geschlecht |  |  | Tx |  |
 | Gewicht |  | kg | Tx |  |
 | Größe |  | cm | Tx |  |
-| Spenderalter |  | Jahren | Tx |  |
+| Spenderalter |  | Jahre | Tx |  |
 | Komplette Ischämiezeit |  | Minuten | Tx |  |
 | Zeit außerhalb des Körpers (out of body time) |  | Minuten | Tx |  |
 | Perfusionssystem OCS |  |  | Tx |  |
@@ -139,8 +138,8 @@ title: "Variablen"
 | System Infektion |  |  | Tx |  |
 | Blutung |  |  | Tx |  |
 | Apoplex |  |  | Tx |  |
-| Apoplex / thomboembolische Komplikationen |  | Jahren | Tx |  |
-| Allograftversagen |  | Minuten | Tx |  |
+| Apoplex / thomboembolische Komplikationen |  |  | Tx | bis 30 Tage nach Tx |
+| Allograftversagen |  | Minuten | Tx | bis 30 Tage nach Tx |
 
 # Legende
 

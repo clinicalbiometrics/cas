@@ -171,7 +171,7 @@ window.Quarto = {
   <li><a href="#sonstige-parameter" id="toc-sonstige-parameter" class="nav-link" data-scroll-target="#sonstige-parameter">Sonstige Parameter</a></li>
   <li><a href="#begleiterkrankungen" id="toc-begleiterkrankungen" class="nav-link" data-scroll-target="#begleiterkrankungen">Begleiterkrankungen</a></li>
   <li><a href="#voroperationen-eingriffe" id="toc-voroperationen-eingriffe" class="nav-link" data-scroll-target="#voroperationen-eingriffe">Voroperationen / Eingriffe</a></li>
-  <li><a href="#mechanische-kreislaufunterstützung" id="toc-mechanische-kreislaufunterstützung" class="nav-link" data-scroll-target="#mechanische-kreislaufunterstützung">Mechanische Kreislaufunterstützung</a></li>
+  <li><a href="#mechanische-kreislaufunterstützung---seit-listung" id="toc-mechanische-kreislaufunterstützung---seit-listung" class="nav-link" data-scroll-target="#mechanische-kreislaufunterstützung---seit-listung">Mechanische Kreislaufunterstützung - seit Listung</a></li>
   <li><a href="#spenderdaten" id="toc-spenderdaten" class="nav-link" data-scroll-target="#spenderdaten">Spenderdaten</a></li>
   <li><a href="#perioperativer-verlauf" id="toc-perioperativer-verlauf" class="nav-link" data-scroll-target="#perioperativer-verlauf">Perioperativer Verlauf</a></li>
   <li><a href="#legende" id="toc-legende" class="nav-link" data-scroll-target="#legende">Legende</a></li>
@@ -203,6 +203,13 @@ window.Quarto = {
 <section id="erstmalige-aufnahme-in-die-warteliste" class="level1">
 <h1>Erstmalige Aufnahme in die Warteliste</h1>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -225,7 +232,7 @@ window.Quarto = {
 <td></td>
 <td></td>
 <td>L</td>
-<td></td>
+<td>Wenn direkt mit Aufnahme auf die Warteliste ein HU-Antrag gestellt wurde und positiv entschieden, HU auswählen.</td>
 </tr>
 </tbody>
 </table>
@@ -315,11 +322,11 @@ window.Quarto = {
 <h1>Demographie</h1>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 40%">
-<col style="width: 19%">
-<col style="width: 12%">
-<col style="width: 15%">
-<col style="width: 12%">
+<col style="width: 30%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -340,10 +347,10 @@ window.Quarto = {
 </tr>
 <tr class="even">
 <td>Episode</td>
-<td></td>
+<td>Anzahl der Aufnahmen auf die Warteliste</td>
 <td></td>
 <td>L</td>
-<td></td>
+<td>Für eine ausführliche Erklärung: siehe Reiter “Episode”</td>
 </tr>
 <tr class="odd">
 <td>Geburtsdatum (Monat)</td>
@@ -364,7 +371,7 @@ window.Quarto = {
 <td></td>
 <td></td>
 <td>L</td>
-<td></td>
+<td>Genetisch determiniertes Geschlecht angeben</td>
 </tr>
 <tr class="even">
 <td>Datum der Listung</td>
@@ -395,24 +402,17 @@ window.Quarto = {
 <td></td>
 </tr>
 <tr class="even">
-<td>Geburtsdatum (Monat)</td>
-<td></td>
-<td></td>
-<td>L</td>
-<td></td>
-</tr>
-<tr class="odd">
 <td>Größe</td>
 <td></td>
 <td>cm</td>
 <td>L</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Gewicht</td>
 <td></td>
 <td>kg</td>
-<td>L</td>
+<td>L, Tx</td>
 <td></td>
 </tr>
 </tbody>
@@ -421,6 +421,13 @@ window.Quarto = {
 <section id="niere" class="level1">
 <h1>Niere</h1>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -432,11 +439,11 @@ window.Quarto = {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Niere</td>
+<td>Nierenersatzverfahren 2w vor</td>
 <td></td>
 <td></td>
 <td>L, Tx</td>
-<td></td>
+<td>2w = 2 Wochen vor L oder Tx</td>
 </tr>
 </tbody>
 </table>
@@ -457,7 +464,7 @@ window.Quarto = {
 <tr class="odd">
 <td>Natrium</td>
 <td></td>
-<td>mol/l</td>
+<td>mmol/l</td>
 <td>L, Tx</td>
 <td></td>
 </tr>
@@ -492,7 +499,7 @@ window.Quarto = {
 <tr class="even">
 <td>PRA</td>
 <td>Panel Reactive Antibodies</td>
-<td></td>
+<td>%</td>
 <td>L, Tx</td>
 <td></td>
 </tr>
@@ -521,7 +528,7 @@ window.Quarto = {
 </tr>
 <tr class="even">
 <td>DOAK</td>
-<td></td>
+<td>Direkte orale Antikoagulanzien</td>
 <td></td>
 <td>L, Tx</td>
 <td></td>
@@ -556,7 +563,7 @@ window.Quarto = {
 </tr>
 <tr class="odd">
 <td>ARNI</td>
-<td></td>
+<td>Angiotensin-Rezeptor-Neprilysin-Inhibitor</td>
 <td></td>
 <td>L, Tx</td>
 <td></td>
@@ -622,7 +629,7 @@ window.Quarto = {
 <tr class="odd">
 <td>PVR</td>
 <td></td>
-<td>Weood Einheiten ODER dyn x sec x cm-5</td>
+<td>Wood Einheiten ODER dyn x sec x cm-5</td>
 <td>L, Tx</td>
 <td></td>
 </tr>
@@ -636,9 +643,9 @@ window.Quarto = {
 <tr class="odd">
 <td>Stationäre Behandlungen wegen Herzinsuffizienz</td>
 <td></td>
-<td>Anzahl</td>
+<td>Anzahl im letzten Jahr</td>
 <td>L, Tx</td>
-<td>Stationäre Behandlungen wegen Herzinsuffizienz zwischen Datum der Aufnahme in die Warteliste und letzter Datenerhebung <strong>bis maximal Transplantation.</strong></td>
+<td>innerhalb 12 Monate vor L und zwischen L und Tx</td>
 </tr>
 </tbody>
 </table>
@@ -808,15 +815,15 @@ window.Quarto = {
 </tbody>
 </table>
 </section>
-<section id="mechanische-kreislaufunterstützung" class="level1">
-<h1>Mechanische Kreislaufunterstützung</h1>
+<section id="mechanische-kreislaufunterstützung---seit-listung" class="level1">
+<h1>Mechanische Kreislaufunterstützung - seit Listung</h1>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 42%">
-<col style="width: 18%">
-<col style="width: 12%">
-<col style="width: 14%">
-<col style="width: 12%">
+<col style="width: 33%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -832,14 +839,14 @@ window.Quarto = {
 <td>MCS dauerhaft - Permanente MCS</td>
 <td></td>
 <td></td>
-<td>Tx</td>
+<td>zw. L und Tx</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Datum der Implantation</td>
 <td></td>
 <td></td>
-<td>Tx</td>
+<td>zw. L und Tx</td>
 <td></td>
 </tr>
 </tbody>
@@ -882,7 +889,7 @@ window.Quarto = {
 <tr class="even">
 <td>Spenderalter</td>
 <td></td>
-<td>Jahren</td>
+<td>Jahre</td>
 <td>Tx</td>
 <td></td>
 </tr>
@@ -920,6 +927,13 @@ window.Quarto = {
 <section id="perioperativer-verlauf" class="level1">
 <h1>Perioperativer Verlauf</h1>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Variable</th>
@@ -954,16 +968,16 @@ window.Quarto = {
 <tr class="even">
 <td>Apoplex / thomboembolische Komplikationen</td>
 <td></td>
-<td>Jahren</td>
-<td>Tx</td>
 <td></td>
+<td>Tx</td>
+<td>bis 30 Tage nach Tx</td>
 </tr>
 <tr class="odd">
 <td>Allograftversagen</td>
 <td></td>
 <td>Minuten</td>
 <td>Tx</td>
-<td></td>
+<td>bis 30 Tage nach Tx</td>
 </tr>
 </tbody>
 </table>
