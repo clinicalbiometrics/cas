@@ -10,7 +10,7 @@ Der Zeitraum bezieht sich auf den gesamten Beobachtungszeitraum des CAS-Projekte
 
 # Zeitpunkte
 
-Die 3 Zeitpunkte beziehen sich auf die Zeitpunkte der Datenerhebung eines Patienten. Diese werden im eCRF ganzen oben abgefragt. Die obrige Grafik würde im eCRF wie folt eingegeben werden:
+Die 3 Zeitpunkte beziehen sich auf die Zeitpunkte der Datenerhebung eines Patienten. Diese werden im eCRF ganzen oben abgefragt. Die obrige Grafik würde im eCRF wie folgt eingegeben werden:
 
 ![Zeitpunkte im eCRF](images/Zeitpunkte-eCRF.png)
 
@@ -18,9 +18,9 @@ Bitte geben Sie entweder "Zeitpunkt der letzten Datenerhebung (last seen alive)"
 
 1.  **Listung**
 
-Beginn der Datenerhebung ist mit Beginn der "erstmaligen" Aufnahme in die Warteliste.
+Beginn der Datenerhebung eines:r Patient:in ist mit dem Beginn der "erstmaligen" Aufnahme in die Warteliste.
 
-Eine erneute Aufnahme in die Warteliste nach einer erfolten Transplantation ist auch eine erstmalige Aufnahme in die Warteliste. Damit beginnt auch die Datenerhebung erneut. Weitere Informationen hierzu finden Sie unter dem Reiter **"Episoden".**
+Eine erneute Aufnahme in die Warteliste nach einer erfolgten Transplantation ist auch eine erstmalige Aufnahme in die Warteliste. Damit beginnt auch die Datenerhebung des:r Patient:in erneut. Weitere Informationen hierzu finden Sie unter dem Reiter **"Episoden".**
 
 Variablen die sich auf den Zeitpunkt der Listung beziehen sind in der Dateneingabemaske ***links*** angeordnet.
 
@@ -32,21 +32,23 @@ Variablen die sich auf den Zeitpunkt der Listung beziehen sind in der Dateneinga
 
 2.  **Transplantation**
 
-Eine Transplantation markiert einen weiteren wichtigen Zeitpunkt der Datenerhebung. Die Variablen, die jeweils dem zum Zeitpunkt der Listung oder dem Zeitpunkt der Transplantation zugeordnet werden, finden Sie unter dem Reiter **"Variablen".**
+Eine Transplantation markiert einen weiteren wichtigen Zeitpunkt der Datenerhebung.
 
-Diesen Zeitpunkt gibt es nicht für jeden Patienten.
+Diesen Zeitpunkt gibt es ***nicht*** für jede:n Patient:in.
 
 Variablen die sich auf den Zeitpunkt der Transplantation beziehen sind in der Dateneingabemaske ***rechts*** angeordnet.
 
 3.  **Ende der Beobachtung**
 
-Der jeweilige Zeitraum der Beobachtung kann auf 3 Arten:
+Der Zeitraum der Beobachtung eines:r Patient:in kann auf 3 Arten enden:
 
-1.  Zeitpunkt der letzen Datenerhebung (last seen alive): der letzte Dokumentierte Zeitpunkt an dem bekannt ist, der Patient lebt.
+1.  Zeitpunkt der letzen Datenerhebung (last seen alive): der letzte Dokumentierte Zeitpunkt an dem bekannt ist, der Patient lebt,
 
-2.  Patient verstorben
+2.  Patient verstorben,
 
 3.  Ende des Beobachtungszeitraums des CAS-Projektes: in diesem Fall bitte unter Zeitpunkt der letzen Datenerhebung 31.12.2023 eintragen.
+
+Die Zuordnung der Variablen zu den Zeitpunkten finden Sie unter dem Reiter **"Variablen".**
 
 # Zeitfenster
 

@@ -28,7 +28,7 @@ title: "Variablen"
 # Demographie
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|-----------------------|-------------|-------------|-------------|-------------|
+|----|----|----|----|----|
 | Zentrumseigene Patienten ID |  |  | L |  |
 | Episode | Anzahl der Aufnahmen auf die Warteliste |  | L | Für eine ausführliche Erklärung: siehe Reiter "Episode" |
 | Geburtsdatum (Monat) |  |  | L |  |
@@ -74,7 +74,7 @@ title: "Variablen"
 # Sonstige Parameter
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|---------------|---------------|---------------|---------------|---------------|
+|----|----|----|----|----|
 | Mechanische Beatmung |  |  | L, Tx |  |
 | Inotropikaabhängigkeit |  |  | L, Tx |  |
 | PCWP | Pulmonary Capillary Wedge Pressure | mmHg | L, Tx |  |
@@ -101,7 +101,7 @@ title: "Variablen"
 # Voroperationen / Eingriffe
 
 | **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:--------------|:--------------|:--------------|:--------------|:--------------|
+|:---|:---|:---|:---|:---|
 | Kardiale Voroperationen |  |  | L |  |
 | Kardiale Voroperationen - angeborene Vitien |  |  | L |  |
 | Kardiale Voroperationen - Koronarchirurgie |  |  | L |  |
@@ -114,7 +114,7 @@ title: "Variablen"
 # Mechanische Kreislaufunterstützung - seit Listung
 
 | Variable                       | Beschreibung | Einheit | Zeitpunkt    | Hinweis |
-|------------------------|------------|------------|------------|------------|
+|--------------------------------|--------------|---------|--------------|---------|
 | MCS dauerhaft - Permanente MCS |              |         | zw. L und Tx |         |
 | Datum der Implantation         |              |         | zw. L und Tx |         |
 
