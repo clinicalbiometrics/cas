@@ -4,7 +4,7 @@ title: "Variablen"
 
 # Erstmalige Aufnahme in die Warteliste
 
-Eingabefelder in der rechten Spalte, die dem Zeitpunkt Tx = Transplantation zugeordnet werden, erscheinen erst, wenn unter Statusänderung Neuer Status = transplantiert ausgewählt wurde. In der folgenden Tabelle ist dies nicht expliziet erwähnt, wenn es sich um felder handelt, die es sowohl für L = Listung und Tx gibt.
+Eingabefelder in der rechten Spalte, die dem Zeitpunkt Tx = Transplantation zugeordnet werden, erscheinen erst, wenn unter Statusänderung - Neuer Status = transplantiert ausgewählt wurde. In der folgenden Tabelle ist dies nicht expliziet erwähnt, wenn es sich um Felder handelt, die es sowohl für L = Listung und Tx gibt.
 
 # Legende
 
@@ -13,7 +13,7 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
 |---------------|---------------|---------------|---------------|---------------|
 | Datum |  |  | L |  |
-| Listenstatus |  |  | L | Wenn direkt mit Aufnahme auf die Warteliste ein HU-Antrag gestellt wurde und positiv entschieden, HU auswählen. |
+| Listenstatus |  |  | L | Wenn direkt mit Aufnahme auf die Warteliste ein HU-Antrag gestellt  und dieser positiv entschieden wurde, HU auswählen. |
 
 # Statusänderung
 
@@ -122,8 +122,8 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
 |---------------|---------------|---------------|---------------|---------------|
-| MCS dauerhaft - Permanente MCS |  |  | zwischen L und Tx/EdB |  |
-| Datum der Implantation |  |  | zwischen L und Tx/EdB |  |
+| MCS dauerhaft - Permanente MCS |  |  | zwischen L und Tx  / EdB |  |
+| Datum der Implantation |  |  | zwischen L und Tx / EdB |  |
 
 # Spenderdaten
 
