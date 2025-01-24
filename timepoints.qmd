@@ -2,7 +2,7 @@
 title: "Zeitraum, -punkt, -fenster"
 ---
 
-![](images/Zeitraum-punkt.png)
+![Zeitraum und Zeitpunkte](images/Zeitraum-punkt.png)
 
 # Zeitraum
 
@@ -46,9 +46,11 @@ Der Zeitraum der Beobachtung eines:r Patient:in kann auf 3 Arten enden:
 
 2.  Patient verstorben,
 
-3.  Ende des Beobachtungszeitraums des CAS-Projektes: in diesem Fall bitte unter Zeitpunkt der letzen Datenerhebung 31.12.2023 eintragen.
+3.  Ende des Beobachtungszeitraums des CAS-Projektes: in diesem Fall bitte unter Zeitpunkt der letzen Datenerhebung 31.12.2023 eintragen.\
+    \
 
-Die Zuordnung der Variablen zu den Zeitpunkten finden Sie unter dem Reiter **"Variablen".**
+Die Zuordnung der Variablen zu den Zeitpunkten finden Sie unter dem Reiter **"Variablen".**\
+\
 
 # Zeitfenster
 
@@ -64,4 +66,4 @@ Die Zeitfenster umfassen die festgelegten Zeitpunkte (siehe oben). Da nicht imme
 | 3.  Ende d. Beobachtung | \-                 | \-                  |
 +-------------------------+--------------------+---------------------+
 
-: ![](images/Zeit-raum-punkt-fenster.png)
+: ![Zeitfenster](images/Zeit-raum-punkt-fenster.png)
