@@ -2,12 +2,12 @@
 title: "Episoden"
 ---
 
-Das Eingabe Feld "Episode" zählt die Anzahl der Listungen ("erstmalige" Aufnahme in die Warteliste). Episode 2 beginnt, wenn der Patient in Episode 1 nach
+Das Eingabe Feld "Episode" zählt die Anzahl der Listungen (= "erstmalige" Aufnahmen in die Warteliste). Episode 2 beginnt, wenn der Patient in Episode 1 nach
 
 -   der Transplantation oder
 
 -   dem Status "entfernt (removed)"
 
-wieder auf die Warteliste gesetzt werden muss. Durch die neuerliche Listung beginnt eine neue Episode.
+***wieder*** auf die Warteliste gesetzt werden muss. Durch die neuerliche Listung beginnt eine neue Episode.
 
-![](images/Episode-03.png)
+![Episode](images/Episode-03.png)

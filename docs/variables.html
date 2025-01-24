@@ -162,6 +162,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#erstmalige-aufnahme-in-die-warteliste" id="toc-erstmalige-aufnahme-in-die-warteliste" class="nav-link active" data-scroll-target="#erstmalige-aufnahme-in-die-warteliste">Erstmalige Aufnahme in die Warteliste</a></li>
+  <li><a href="#legende" id="toc-legende" class="nav-link" data-scroll-target="#legende">Legende</a></li>
   <li><a href="#statusänderung" id="toc-statusänderung" class="nav-link" data-scroll-target="#statusänderung">Statusänderung</a></li>
   <li><a href="#follow-up-ende-der-datenerhebung" id="toc-follow-up-ende-der-datenerhebung" class="nav-link" data-scroll-target="#follow-up-ende-der-datenerhebung">Follow-up/ Ende der Datenerhebung</a></li>
   <li><a href="#demographie" id="toc-demographie" class="nav-link" data-scroll-target="#demographie">Demographie</a></li>
@@ -174,7 +175,6 @@ window.Quarto = {
   <li><a href="#mechanische-kreislaufunterstützung---seit-listung" id="toc-mechanische-kreislaufunterstützung---seit-listung" class="nav-link" data-scroll-target="#mechanische-kreislaufunterstützung---seit-listung">Mechanische Kreislaufunterstützung - seit Listung</a></li>
   <li><a href="#spenderdaten" id="toc-spenderdaten" class="nav-link" data-scroll-target="#spenderdaten">Spenderdaten</a></li>
   <li><a href="#perioperativer-verlauf" id="toc-perioperativer-verlauf" class="nav-link" data-scroll-target="#perioperativer-verlauf">Perioperativer Verlauf</a></li>
-  <li><a href="#legende" id="toc-legende" class="nav-link" data-scroll-target="#legende">Legende</a></li>
   </ul>
 </nav>
     </div>
@@ -202,6 +202,12 @@ window.Quarto = {
 
 <section id="erstmalige-aufnahme-in-die-warteliste" class="level1">
 <h1>Erstmalige Aufnahme in die Warteliste</h1>
+<p>Eingabefelder in der rechten Spalte, die dem Zeitpunkt Tx = Transplantation zugeordnet werden, erscheinen erst, wenn unter Statusänderung Neuer Status = transplantiert ausgewählt wurde. In der folgenden Tabelle ist dies nicht expliziet erwähnt, wenn es sich um felder handelt, die es sowohl für L = Listung und Tx gibt.</p>
+</section>
+<section id="legende" class="level1">
+<h1>Legende</h1>
+<p>L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung<br>
+</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -241,11 +247,11 @@ window.Quarto = {
 <h1>Statusänderung</h1>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 19%">
-<col style="width: 19%">
-<col style="width: 12%">
-<col style="width: 35%">
-<col style="width: 12%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -261,14 +267,14 @@ window.Quarto = {
 <td>Datum</td>
 <td></td>
 <td></td>
-<td>zwischen L und Tx / EdB</td>
+<td>zwischen L und Tx und / oder EdB</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Listenstatus</td>
 <td></td>
 <td></td>
-<td>zwischen L und Tx / EdB</td>
+<td>zwischen L und Tx und / oder EdB</td>
 <td></td>
 </tr>
 </tbody>
@@ -306,14 +312,14 @@ window.Quarto = {
 <td></td>
 <td></td>
 <td>EdB</td>
-<td>Erscheint, wenn Patient verstorben = Ja</td>
+<td>Erscheint, wenn Patient:in verstorben = Ja</td>
 </tr>
 <tr class="even">
 <td>Grund</td>
 <td></td>
 <td></td>
 <td>EdB</td>
-<td>Erscheint, wenn Patient verstorben = Ja</td>
+<td>Erscheint, wenn Patient:in verstorben = Ja</td>
 </tr>
 </tbody>
 </table>
@@ -355,14 +361,14 @@ window.Quarto = {
 <tr class="odd">
 <td>Geburtsdatum (Monat)</td>
 <td></td>
-<td></td>
+<td>Monat</td>
 <td>L</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Geburtsdatum (Jahr)</td>
 <td></td>
-<td></td>
+<td>Jahr</td>
 <td>L</td>
 <td></td>
 </tr>
@@ -385,7 +391,7 @@ window.Quarto = {
 <td></td>
 <td></td>
 <td>Tx</td>
-<td></td>
+<td>Erscheint, wenn Neuer Status = transplantiert</td>
 </tr>
 <tr class="even">
 <td>Blutgruppe</td>
@@ -606,7 +612,7 @@ window.Quarto = {
 <td></td>
 </tr>
 <tr class="even">
-<td>Inotropikaabhängigkeit</td>
+<td>Inotropikatherapie</td>
 <td></td>
 <td></td>
 <td>L, Tx</td>
@@ -644,8 +650,15 @@ window.Quarto = {
 <td>Stationäre Behandlungen wegen Herzinsuffizienz</td>
 <td></td>
 <td>Anzahl im letzten Jahr</td>
-<td>L, Tx</td>
-<td>innerhalb 12 Monate vor L und zwischen L und Tx</td>
+<td>L</td>
+<td>innerhalb 12 Monate vor L</td>
+</tr>
+<tr class="even">
+<td>Stationäre Behandlungen wegen Herzinsuffizienz</td>
+<td></td>
+<td></td>
+<td>zwischen L und Tx</td>
+<td>maximal bis Tx</td>
 </tr>
 </tbody>
 </table>
@@ -760,57 +773,57 @@ window.Quarto = {
 <td style="text-align: left;">Kardiale Voroperationen</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">L</td>
+<td style="text-align: left;">L, Tx</td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Kardiale Voroperationen - angeborene Vitien</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">L</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">L, Tx</td>
+<td style="text-align: left;">Erscheint, wenn Kardiale Voroperationen = Ja</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Kardiale Voroperationen - Koronarchirurgie</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">L</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">L, Tx</td>
+<td style="text-align: left;">Erscheint, wenn Kardiale Voroperationen = Ja</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Kardiale Voroperationen - permanente MCS</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">L</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">L, Tx</td>
+<td style="text-align: left;">Erscheint, wenn Kardiale Voroperationen = Ja</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Z.n. OP/Intervention an der Aortenklappe</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">L, Tx</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Erscheint, wenn Kardiale Voroperationen = Ja</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Z.n. OP/Intervention an der Mitralklappe</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">L, Tx</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Erscheint, wenn Kardiale Voroperationen = Ja</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Z.n. OP/Intervention an der Pulmonalklappe</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">L, Tx</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Erscheint, wenn Kardiale Voroperationen = Ja</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Z.n. OP/Intervention an der Trikuspidalklappe</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">L, Tx</td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Erscheint, wenn Kardiale Voroperationen = Ja</td>
 </tr>
 </tbody>
 </table>
@@ -819,11 +832,11 @@ window.Quarto = {
 <h1>Mechanische Kreislaufunterstützung - seit Listung</h1>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 41%">
-<col style="width: 17%">
-<col style="width: 11%">
-<col style="width: 17%">
-<col style="width: 11%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -839,14 +852,14 @@ window.Quarto = {
 <td>MCS dauerhaft - Permanente MCS</td>
 <td></td>
 <td></td>
-<td>zw. L und Tx</td>
+<td>zwischen L und Tx/EdB</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Datum der Implantation</td>
 <td></td>
 <td></td>
-<td>zw. L und Tx</td>
+<td>zwischen L und Tx/EdB</td>
 <td></td>
 </tr>
 </tbody>
@@ -854,6 +867,7 @@ window.Quarto = {
 </section>
 <section id="spenderdaten" class="level1">
 <h1>Spenderdaten</h1>
+<p>Erscheint, wenn Neuer Status = transplantiert.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -926,6 +940,7 @@ window.Quarto = {
 </section>
 <section id="perioperativer-verlauf" class="level1">
 <h1>Perioperativer Verlauf</h1>
+<p>Erscheint, wenn Neuer Status = transplantiert.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -975,16 +990,12 @@ window.Quarto = {
 <tr class="odd">
 <td>Allograftversagen</td>
 <td></td>
-<td>Minuten</td>
+<td></td>
 <td>Tx</td>
 <td>bis 30 Tage nach Tx</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="legende" class="level1">
-<h1>Legende</h1>
-<p>L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung</p>
 
 
 </section>

@@ -4,17 +4,23 @@ title: "Variablen"
 
 # Erstmalige Aufnahme in die Warteliste
 
+Eingabefelder in der rechten Spalte, die dem Zeitpunkt Tx = Transplantation zugeordnet werden, erscheinen erst, wenn unter Statusänderung Neuer Status = transplantiert ausgewählt wurde. In der folgenden Tabelle ist dies nicht expliziet erwähnt, wenn es sich um felder handelt, die es sowohl für L = Listung und Tx gibt.
+
+# Legende
+
+L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
+
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----|----|----|----|----|
+|---------------|---------------|---------------|---------------|---------------|
 | Datum |  |  | L |  |
 | Listenstatus |  |  | L | Wenn direkt mit Aufnahme auf die Warteliste ein HU-Antrag gestellt wurde und positiv entschieden, HU auswählen. |
 
 # Statusänderung
 
-| Variable     | Beschreibung | Einheit | Zeitpunkt               | Hinweis |
-|--------------|--------------|---------|-------------------------|---------|
-| Datum        |              |         | zwischen L und Tx / EdB |         |
-| Listenstatus |              |         | zwischen L und Tx / EdB |         |
+| Variable     | Beschreibung | Einheit | Zeitpunkt                        | Hinweis |
+|---------------|---------------|---------------|---------------|---------------|
+| Datum        |              |         | zwischen L und Tx und / oder EdB |         |
+| Listenstatus |              |         | zwischen L und Tx und / oder EdB |         |
 
 # Follow-up/ Ende der Datenerhebung
 
@@ -22,20 +28,20 @@ title: "Variablen"
 |----|----|----|----|----|
 | Zeitpunkt der letzten Datenerhebung (last seen alive) |  |  | EdB |  |
 | Patient verstorben |  |  | EdB |  |
-| Todesdatum |  |  | EdB | Erscheint, wenn Patient verstorben = Ja |
-| Grund |  |  | EdB | Erscheint, wenn Patient verstorben = Ja |
+| Todesdatum |  |  | EdB | Erscheint, wenn Patient:in verstorben = Ja |
+| Grund |  |  | EdB | Erscheint, wenn Patient:in verstorben = Ja |
 
 # Demographie
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----|----|----|----|----|
+|---------------|---------------|---------------|---------------|---------------|
 | Zentrumseigene Patienten ID |  |  | L |  |
 | Episode | Anzahl der Aufnahmen auf die Warteliste |  | L | Für eine ausführliche Erklärung: siehe Reiter "Episode" |
-| Geburtsdatum (Monat) |  |  | L |  |
-| Geburtsdatum (Jahr) |  |  | L |  |
+| Geburtsdatum (Monat) |  | Monat | L |  |
+| Geburtsdatum (Jahr) |  | Jahr | L |  |
 | Geschlecht |  |  | L | Genetisch determiniertes Geschlecht angeben |
 | Datum der Listung |  |  | L |  |
-| Datum der Transplantation |  |  | Tx |  |
+| Datum der Transplantation |  |  | Tx | Erscheint, wenn Neuer Status = transplantiert |
 | Blutgruppe |  |  | L |  |
 | Rhesusfaktor |  |  | L |  |
 | Größe |  | cm | L |  |
@@ -44,7 +50,7 @@ title: "Variablen"
 # Niere
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----|----|----|----|----|
+|---------------|---------------|---------------|---------------|---------------|
 | Nierenersatzverfahren 2w vor |  |  | L, Tx | 2w = 2 Wochen vor L oder Tx |
 
 # Laborwerte
@@ -74,14 +80,15 @@ title: "Variablen"
 # Sonstige Parameter
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----|----|----|----|----|
+|---------------|---------------|---------------|---------------|---------------|
 | Mechanische Beatmung |  |  | L, Tx |  |
-| Inotropikaabhängigkeit |  |  | L, Tx |  |
+| Inotropikatherapie |  |  | L, Tx |  |
 | PCWP | Pulmonary Capillary Wedge Pressure | mmHg | L, Tx |  |
 | CI | Cardiac Index | l/min/m2 | L, Tx |  |
 | PVR |  | Wood Einheiten ODER dyn x sec x cm-5 | L, Tx |  |
 | LVEF | Left Ventricular Ejection Fraction | \% | L, Tx |  |
-| Stationäre Behandlungen wegen Herzinsuffizienz |  | Anzahl im letzten Jahr | L, Tx | innerhalb 12 Monate vor L und zwischen L und Tx |
+| Stationäre Behandlungen wegen Herzinsuffizienz |  | Anzahl im letzten Jahr | L | innerhalb 12 Monate vor L |
+| Stationäre Behandlungen wegen Herzinsuffizienz |  |  | zwischen L und Tx | maximal bis Tx |
 
 # Begleiterkrankungen
 
@@ -101,24 +108,26 @@ title: "Variablen"
 # Voroperationen / Eingriffe
 
 | **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| Kardiale Voroperationen |  |  | L |  |
-| Kardiale Voroperationen - angeborene Vitien |  |  | L |  |
-| Kardiale Voroperationen - Koronarchirurgie |  |  | L |  |
-| Kardiale Voroperationen - permanente MCS |  |  | L |  |
-| Z.n. OP/Intervention an der Aortenklappe |  |  | L, Tx |  |
-| Z.n. OP/Intervention an der Mitralklappe |  |  | L, Tx |  |
-| Z.n. OP/Intervention an der Pulmonalklappe |  |  | L, Tx |  |
-| Z.n. OP/Intervention an der Trikuspidalklappe |  |  | L, Tx |  |
+|:--------------|:--------------|:--------------|:--------------|:--------------|
+| Kardiale Voroperationen |  |  | L, Tx |  |
+| Kardiale Voroperationen - angeborene Vitien |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
+| Kardiale Voroperationen - Koronarchirurgie |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
+| Kardiale Voroperationen - permanente MCS |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
+| Z.n. OP/Intervention an der Aortenklappe |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
+| Z.n. OP/Intervention an der Mitralklappe |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
+| Z.n. OP/Intervention an der Pulmonalklappe |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
+| Z.n. OP/Intervention an der Trikuspidalklappe |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
 
 # Mechanische Kreislaufunterstützung - seit Listung
 
-| Variable                       | Beschreibung | Einheit | Zeitpunkt    | Hinweis |
-|--------------------------------|--------------|---------|--------------|---------|
-| MCS dauerhaft - Permanente MCS |              |         | zw. L und Tx |         |
-| Datum der Implantation         |              |         | zw. L und Tx |         |
+| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
+|---------------|---------------|---------------|---------------|---------------|
+| MCS dauerhaft - Permanente MCS |  |  | zwischen L und Tx/EdB |  |
+| Datum der Implantation |  |  | zwischen L und Tx/EdB |  |
 
 # Spenderdaten
+
+Erscheint, wenn Neuer Status = transplantiert.
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
 |----|----|----|----|----|
@@ -133,14 +142,12 @@ title: "Variablen"
 
 # Perioperativer Verlauf
 
+Erscheint, wenn Neuer Status = transplantiert.
+
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----|----|----|----|----|
+|---------------|---------------|---------------|---------------|---------------|
 | System Infektion |  |  | Tx |  |
 | Blutung |  |  | Tx |  |
 | Apoplex |  |  | Tx |  |
 | Apoplex / thomboembolische Komplikationen |  |  | Tx | bis 30 Tage nach Tx |
-| Allograftversagen |  | Minuten | Tx | bis 30 Tage nach Tx |
-
-# Legende
-
-L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung
+| Allograftversagen |  |  | Tx | bis 30 Tage nach Tx |
