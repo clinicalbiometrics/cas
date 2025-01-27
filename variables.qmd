@@ -13,7 +13,7 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
 |---------------|---------------|---------------|---------------|---------------|
 | Datum |  |  | L |  |
-| Listenstatus |  |  | L | Wenn direkt mit Aufnahme auf die Warteliste ein HU-Antrag gestellt  und dieser positiv entschieden wurde, HU auswählen. |
+| Listenstatus |  |  | L | Wenn direkt mit Aufnahme auf die Warteliste ein HU-Antrag gestellt und dieser positiv entschieden wurde, HU auswählen. |
 
 # Statusänderung
 
@@ -121,8 +121,8 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 # Mechanische Kreislaufunterstützung - seit Listung
 
 | Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|---------------|---------------|---------------|---------------|---------------|
-| MCS dauerhaft - Permanente MCS |  |  | zwischen L und Tx  / EdB |  |
+|----|----|----|----|----|
+| MCS dauerhaft - Permanente MCS |  |  | zwischen L und Tx / EdB |  |
 | Datum der Implantation |  |  | zwischen L und Tx / EdB |  |
 
 # Spenderdaten
