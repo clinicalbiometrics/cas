@@ -10,22 +10,22 @@ Eingabefelder in der rechten Spalte, die dem Zeitpunkt Tx = Transplantation zuge
 
 L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 
-| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|---------------|---------------|---------------|---------------|---------------|
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
 | Datum |  |  | L |  |
 | Listenstatus |  |  | L | Wenn direkt mit Aufnahme auf die Warteliste ein HU-Antrag gestellt und dieser positiv entschieden wurde, HU auswählen. |
 
 # Statusänderung
 
-| Variable     | Beschreibung | Einheit | Zeitpunkt                        | Hinweis |
-|---------------|---------------|---------------|---------------|---------------|
-| Datum        |              |         | zwischen L und Tx und / oder EdB |         |
-| Listenstatus |              |         | zwischen L und Tx und / oder EdB |         |
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
+| Datum |  |  | zwischen L und Tx und / oder EdB |  |
+| Listenstatus |  |  | zwischen L und Tx und / oder EdB |  |
 
 # Follow-up/ Ende der Datenerhebung
 
-| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----|----|----|----|----|
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
 | Zeitpunkt der letzten Datenerhebung (last seen alive) |  |  | EdB |  |
 | Patient verstorben |  |  | EdB |  |
 | Todesdatum |  |  | EdB | Erscheint, wenn Patient:in verstorben = Ja |
@@ -33,8 +33,8 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 
 # Demographie
 
-| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|---------------|---------------|---------------|---------------|---------------|
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
 | Zentrumseigene Patienten ID |  |  | L |  |
 | Episode | Anzahl der Aufnahmen auf die Warteliste |  | L | Für eine ausführliche Erklärung: siehe Reiter "Episode" |
 | Geburtsdatum (Monat) |  | Monat | L |  |
@@ -49,8 +49,8 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 
 # Niere
 
-| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|---------------|---------------|---------------|---------------|---------------|
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
 | Nierenersatzverfahren 2w vor |  |  | L, Tx | 2w = 2 Wochen vor L oder Tx |
 
 # Laborwerte
@@ -66,8 +66,8 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 
 # Sonstige medikamentöse Therapie
 
-| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----|----|----|----|----|
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
 | Marcumar - Therapie / Vitamin K - Antagonisten |  |  | L, Tx |  |
 | DOAK | Direkte orale Antikoagulanzien |  | L, Tx |  |
 | $\beta$-Blocker |  |  | L, Tx |  |
@@ -79,8 +79,8 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 
 # Sonstige Parameter
 
-| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|---------------|---------------|---------------|---------------|---------------|
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
 | Mechanische Beatmung |  |  | L, Tx |  |
 | Inotropikatherapie |  |  | L, Tx |  |
 | PCWP | Pulmonary Capillary Wedge Pressure | mmHg | L, Tx |  |
@@ -92,8 +92,8 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 
 # Begleiterkrankungen
 
-| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----|----|----|----|----|
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
 | Diabetes Mellitus |  |  | L |  |
 | Diabetische Sekundärkomplikation Polyneuropathie |  |  | L |  |
 | Diabetische Sekundärkomplikation Auge |  |  | L |  |
@@ -108,7 +108,7 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 # Voroperationen / Eingriffe
 
 | **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:--------------|:--------------|:--------------|:--------------|:--------------|
+|:---|:---|:---|:---|:---|
 | Kardiale Voroperationen |  |  | L, Tx |  |
 | Kardiale Voroperationen - angeborene Vitien |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
 | Kardiale Voroperationen - Koronarchirurgie |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
@@ -120,8 +120,8 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 
 # Mechanische Kreislaufunterstützung - seit Listung
 
-| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----|----|----|----|----|
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
 | MCS dauerhaft - Permanente MCS |  |  | zwischen L und Tx / EdB |  |
 | Datum der Implantation |  |  | zwischen L und Tx / EdB |  |
 
@@ -129,8 +129,8 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
 
 Erscheint, wenn Neuer Status = transplantiert.
 
-| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|----|----|----|----|----|
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
 | Geschlecht |  |  | Tx |  |
 | Gewicht |  | kg | Tx |  |
 | Größe |  | cm | Tx |  |
@@ -144,8 +144,8 @@ Erscheint, wenn Neuer Status = transplantiert.
 
 Erscheint, wenn Neuer Status = transplantiert.
 
-| Variable | Beschreibung | Einheit | Zeitpunkt | Hinweis |
-|---------------|---------------|---------------|---------------|---------------|
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
+|:---|:---|:---|:---|:---|
 | System Infektion |  |  | Tx |  |
 | Blutung |  |  | Tx |  |
 | Apoplex |  |  | Tx |  |
