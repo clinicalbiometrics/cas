@@ -15,7 +15,7 @@ Bei speziellen Fragen können Sie sich gerne an die E-mail-Adresse [cas\@meduniw
 
 Letzte Änderungen:
 
-```{r date}
+```{r date, echo=FALSE, results='asis'}
 library(lubridate)
-today()
+cat(today())
 ```
