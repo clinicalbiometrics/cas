@@ -13,4 +13,4 @@ A-1090 Wien
 
 Bei speziellen Fragen können Sie sich gerne an die E-mail-Adresse [cas\@meduniwien.ac.at](mailto:cas@meduniwien.ac.at) wenden.
 
-Letzte Änderungen: 25. 11. 2024.
+Letzte Änderungen: `r Sys.Date()`.
