@@ -2,7 +2,9 @@
 title: "Variablen"
 ---
 
-# Hinweis zur Dateneingabe: "Nein" vs. "Nicht angegeben"
+# Hinweis zur Dateneingabe: 
+
+## "Nein" vs. "Nicht angegeben"
 
 Bitte beachten Sie beim Ausfüllen der Felder den Unterschied zwischen den Auswahlmöglichkeiten:
 
@@ -12,13 +14,15 @@ Bitte beachten Sie beim Ausfüllen der Felder den Unterschied zwischen den Auswa
 
 Die korrekte Auswahl ist entscheidend für die **Datenqualität und Auswertbarkeit**: Ein "Nein" liefert eine klare Aussage, während "Nicht angegeben" auf einen Informationsmangel hinweist.
 
-# Erstmalige Aufnahme in die Warteliste
+## Felder "zum Zeitpunkt der Teransplantation"
 
 Eingabefelder in der rechten Spalte, die dem Zeitpunkt Tx = Transplantation zugeordnet werden, erscheinen erst, wenn unter Statusänderung - Neuer Status = transplantiert ausgewählt wurde. In der folgenden Tabelle ist dies nicht expliziet erwähnt, wenn es sich um Felder handelt, die es sowohl für L = Listung und Tx gibt.
 
 # Legende
 
-L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung\
+L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung
+
+# Erstmalige Aufnahme in die Warteliste
 
 +--------------+------------------+-------------+---------------+------------------------------------------------------------------------------------------------------------------------+
 | **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis**                                                                                                            |
