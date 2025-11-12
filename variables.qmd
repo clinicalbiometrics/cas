@@ -24,59 +24,95 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung
 
 # Erstmalige Aufnahme in die Warteliste
 
++--------------+------------------+-------------+---------------+-------------+
 | **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| Datum |  |  | L |  |
-| Listenstatus |  |  | L | Wenn direkt mit Aufnahme auf die Warteliste ein HU-Antrag gestellt und dieser positiv entschieden wurde, HU auswählen. |
++:=============+:=================+:============+:==============+:============+
+| Datum        |                  |             | L             |             |
++--------------+------------------+-------------+---------------+-------------+
+| Uhrzeit      |                  |             | L             | Stunden und Minuten |
++--------------+------------------+-------------+---------------+-------------+
+| Listenstatus |                  |             | L             |             |
++--------------+------------------+-------------+---------------+-------------+
 
 # Statusänderung
 
-| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| Datum |  |  | zwischen L und Tx und / oder EdB |  |
-| Listenstatus |  |  | zwischen L und Tx und / oder EdB |  |
++--------------+------------------+-------------+----------------------------------+-------------+
+| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt**                    | **Hinweis** |
++:=============+:=================+:============+:=================================+:============+
+| Datum        |                  |             | zwischen L und Tx und / oder EdB |             |
++--------------+------------------+-------------+----------------------------------+-------------+
+| Uhrzeit      |                  |             | zwischen L und Tx und / oder EdB |Stunden und Minuten|
++--------------+------------------+-------------+----------------------------------+-------------+
+| Listenstatus |                  |             | zwischen L und Tx und / oder EdB |             |
++--------------+------------------+-------------+----------------------------------+-------------+
 
 # Follow-up/ Ende der Datenerhebung
 
-| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| Zeitpunkt der letzten Datenerhebung (last seen alive) |  |  | EdB |  |
-| Patient verstorben |  |  | EdB |  |
-| Todesdatum |  |  | EdB | Erscheint, wenn Patient:in verstorben = Ja |
-| Grund |  |  | EdB | Erscheint, wenn Patient:in verstorben = Ja |
++-------------------------------------------------------+------------------+-------------+---------------+--------------------------------------------+
+| **Variable**                                          | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis**                                |
++:======================================================+:=================+:============+:==============+:===========================================+
+| Patient verstorben                                    |                  |             | EdB           |                                            |
++-------------------------------------------------------+------------------+-------------+---------------+--------------------------------------------+
+| Zeitpunkt der letzten Datenerhebung (last seen alive) |                  |             | EdB           | Erscheint, wenn Patient:in verstorben = Nein |
++-------------------------------------------------------+------------------+-------------+---------------+--------------------------------------------+
+| Todesdatum                                            |                  |             | EdB           | Erscheint, wenn Patient:in verstorben = Ja |
++-------------------------------------------------------+------------------+-------------+---------------+--------------------------------------------+
+| Grund                                                 |                  |             | EdB           | Erscheint, wenn Patient:in verstorben = Ja |
++-------------------------------------------------------+------------------+-------------+---------------+--------------------------------------------+
 
 # Demographie
 
-| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| Zentrumseigene Patienten ID |  |  | L |  |
-| Episode | Anzahl der Aufnahmen auf die Warteliste |  | L | Für eine ausführliche Erklärung: siehe Reiter "Episode" |
-| Geburtsdatum (Monat) |  | Monat | L |  |
-| Geburtsdatum (Jahr) |  | Jahr | L |  |
-| Geschlecht |  |  | L | Genetisch determiniertes Geschlecht angeben |
-| Datum der Listung |  |  | L |  |
-| Datum der Transplantation |  |  | Tx | Erscheint, wenn Neuer Status = transplantiert |
-| Blutgruppe |  |  | L |  |
-| Rhesusfaktor |  |  | L |  |
-| Größe |  | cm | L |  |
-| Gewicht |  | kg | L, Tx |  |
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
+| **Variable**                | **Beschreibung**                        | **Einheit** | **Zeitpunkt** | **Hinweis**                                             |
++:============================+:========================================+:============+:==============+:========================================================+
+| Zentrumseigene Patienten ID |                                         |             | L             |                                                         |
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
+| Episode                     | Anzahl der Aufnahmen auf die Warteliste |             | L             | Für eine ausführliche Erklärung: siehe Reiter "Episode" |
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
+| Geburtsdatum (Monat)        |                                         | Monat       | L             |                                                         |
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
+| Geburtsdatum (Jahr)         |                                         | Jahr        | L             |                                                         |
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
+| Geschlecht                  |                                         |             | L             | Genetisch determiniertes Geschlecht angeben             |
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
+| Datum der Listung           |                                         |             | L             | Wird übernommen                                         |
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
+| Datum der Transplantation   |                                         |             | Tx            | Wird übernommen; Erscheint, wenn Neuer Status = transplantiert|
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
+| Blutgruppe                  |                                         |             | L             |                                                         |
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
+| Rhesusfaktor                |                                         |             | L             |                                                         |
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
+| Größe                       |                                         | cm          | L             |                                                         |
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
+| Gewicht                     |                                         | kg          | L, Tx         |                                                         |
++-----------------------------+-----------------------------------------+-------------+---------------+---------------------------------------------------------+
 
 # Niere
 
-| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| Nierenersatzverfahren 2w vor |  |  | L, Tx | 2w = 2 Wochen vor L oder Tx |
++------------------------------+------------------+-------------+---------------+-----------------------------+
+| **Variable**                 | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis**                 |
++:=============================+:=================+:============+:==============+:============================+
+| Nierenersatzverfahren 2w vor |                  |             | L, Tx         | 2w = 2 Wochen vor L oder Tx |
++------------------------------+------------------+-------------+---------------+-----------------------------+
 
 # Laborwerte
 
-| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| Natrium |  | mmol/l | L, Tx |  |
-| Bilirubin |  | mg/dl ODER $\mu$mol/l | L, Tx |  |
-| Serumkreatinin |  | mg/dl ODER $\mu$mol/l | L, Tx |  |
-| Albumin |  | mg/dl | L, Tx |  |
-| INR | International Normalized Ratio |  | L, Tx |  |
-| PRA | Panel Reactive Antibodies | \% | L, Tx |  |
++----------------+--------------------------------+-----------------------+---------------+-------------+
+| **Variable**   | **Beschreibung**               | **Einheit**           | **Zeitpunkt** | **Hinweis** |
++:===============+:===============================+:======================+:==============+:============+
+| Natrium        |                                | mmol/l                | L, Tx         |             |
++----------------+--------------------------------+-----------------------+---------------+-------------+
+| Bilirubin      |                                | mg/dl ODER $\mu$mol/l | L, Tx         |             |
++----------------+--------------------------------+-----------------------+---------------+-------------+
+| Serumkreatinin |                                | mg/dl ODER $\mu$mol/l | L, Tx         |             |
++----------------+--------------------------------+-----------------------+---------------+-------------+
+| Albumin        |                                | mg/dl                 | L, Tx         |             |
++----------------+--------------------------------+-----------------------+---------------+-------------+
+| INR            | International Normalized Ratio |                       | L, Tx         |             |
++----------------+--------------------------------+-----------------------+---------------+-------------+
+| PRA            | Panel Reactive Antibodies      | \%                    | L, Tx         |             |
++----------------+--------------------------------+-----------------------+---------------+-------------+
 
 # Sonstige medikamentöse Therapie
 
@@ -199,69 +235,107 @@ L = Listung, Tx = Transplantation, EdB = Ende der Beobachtung
 +------------------------------------------------+------------------------------------+--------------------------------------+-------------------+------------------------------------------+
 | LVEF                                           | Left Ventricular Ejection Fraction | \%                                   | L, Tx             |                                          |
 +------------------------------------------------+------------------------------------+--------------------------------------+-------------------+------------------------------------------+
-| Stationäre Behandlungen wegen Herzinsuffizienz |                                    | Anzahl im letzten Jahr               | L                 | innerhalb 12 Monate vor L                |
+| Anzahl der stationären Behandlungen wegen Herzinsuffizienz || Anzahl im letzten Jahr| L                 | innerhalb 12 Monate vor L                |
 +------------------------------------------------+------------------------------------+--------------------------------------+-------------------+------------------------------------------+
-| Stationäre Behandlungen wegen Herzinsuffizienz |                                    |                                      | zwischen L und Tx | maximal bis Tx                           |
+| Anzahl der stationären Behandlungen wegen Herzinsuffizienz ||                      | zwischen L und Tx | maximal bis Tx                           |
 +------------------------------------------------+------------------------------------+--------------------------------------+-------------------+------------------------------------------+
 
 # Begleiterkrankungen
 
-| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| Diabetes Mellitus |  |  | L |  |
-| Diabetische Sekundärkomplikation Polyneuropathie |  |  | L |  |
-| Diabetische Sekundärkomplikation Auge |  |  | L |  |
-| PAVK |  |  | L |  |
-| CAVK |  |  | L |  |
-| Anzahl der kardialen Voroperationen |  |  | L |  |
-| ICD | Implantable Cardioverter-Defibrillator |  | L |  |
-| Schockabgabe |  |  | L |  |
-| CRT | Cardiac Resynchronization Therapy |  | L, Tx |  |
-| Z.n. Schlaganfall |  |  | L |  |
++--------------------------------------------------+----------------------------------------+-------------+---------------+-------------+
+| **Variable**                                     | **Beschreibung**                       | **Einheit** | **Zeitpunkt** | **Hinweis** |
++:=================================================+:=======================================+:============+:==============+:============+
+| Diabetes Mellitus                                |                                        |             | L             |             |
++--------------------------------------------------+----------------------------------------+-------------+---------------+-------------+
+| Diabetische Sekundärkomplikation Polyneuropathie |                                        |             | L             |             |
++--------------------------------------------------+----------------------------------------+-------------+---------------+-------------+
+| Diabetische Sekundärkomplikation Auge            |                                        |             | L             |             |
++--------------------------------------------------+----------------------------------------+-------------+---------------+-------------+
+| PAVK                                             |                                        |             | L             |             |
++--------------------------------------------------+----------------------------------------+-------------+---------------+-------------+
+| CAVK                                             |                                        |             | L             |             |
++--------------------------------------------------+----------------------------------------+-------------+---------------+-------------+
+| ICD                                              | Implantable Cardioverter-Defibrillator |             | L, zw. L und Tx|            |
++--------------------------------------------------+----------------------------------------+-------------+---------------+-------------+
+| Schockabgabe                                     |                                        |             | L, zw. L und Tx|            |
++--------------------------------------------------+----------------------------------------+-------------+---------------+-------------+
+| CRT                                              | Cardiac Resynchronization Therapy      |             | L, zw. L und Tx|            |
++--------------------------------------------------+----------------------------------------+-------------+---------------+-------------+
+| Z.n. Schlaganfall                                |                                        |             | L                           |
++--------------------------------------------------+----------------------------------------+-------------+---------------+-------------+
+| neu aufgetretener Schlaganfall                   |                                        |             | zw. L und Tx  |             |
++--------------------------------------------------+----------------------------------------+-------------+---------------+-------------+
 
 # Voroperationen / Eingriffe
 
-| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| Kardiale Voroperationen |  |  | L, Tx |  |
-| Kardiale Voroperationen - angeborene Vitien |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
-| Kardiale Voroperationen - Koronarchirurgie |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
-| Kardiale Voroperationen - permanente MCS |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
-| Z.n. OP/Intervention an der Aortenklappe |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
-| Z.n. OP/Intervention an der Mitralklappe |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
-| Z.n. OP/Intervention an der Pulmonalklappe |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
-| Z.n. OP/Intervention an der Trikuspidalklappe |  |  | L, Tx | Erscheint, wenn Kardiale Voroperationen = Ja |
++-----------------------------------------------+------------------+-------------+---------------+----------------------------------------------+
+| **Variable**                                  | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis**                                  |
++:==============================================+:=================+:============+:==============+:=============================================+
+| Kardiale Voroperationen                       |                  |             | L, Tx         |                                              |
++-----------------------------------------------+------------------+-------------+---------------+----------------------------------------------+
+| Anzahl der kardialen Voroperationen           |                  |             | L             | Erscheint, wenn Kardiale Voroperationen = Ja |
++-----------------------------------------------+------------------+-------------+---------------+----------------------------------------------+
+| Kardiale Voroperationen - angeborene Vitien   |                  |             | L, Tx         | Erscheint, wenn Kardiale Voroperationen = Ja |
++-----------------------------------------------+------------------+-------------+---------------+----------------------------------------------+
+| Kardiale Voroperationen - Koronarchirurgie    |                  |             | L, Tx         | Erscheint, wenn Kardiale Voroperationen = Ja |
++-----------------------------------------------+------------------+-------------+---------------+----------------------------------------------+
+| Kardiale Voroperationen - permanente MCS      |                  |             | L             | Erscheint, wenn Kardiale Voroperationen = Ja |
++-----------------------------------------------+------------------+-------------+---------------+----------------------------------------------+
+| Z.n. OP/Intervention an der Aortenklappe      |                  |             | L, Tx         | Erscheint, wenn Kardiale Voroperationen = Ja |
++-----------------------------------------------+------------------+-------------+---------------+----------------------------------------------+
+| Z.n. OP/Intervention an der Mitralklappe      |                  |             | L, Tx         | Erscheint, wenn Kardiale Voroperationen = Ja |
++-----------------------------------------------+------------------+-------------+---------------+----------------------------------------------+
+| Z.n. OP/Intervention an der Pulmonalklappe    |                  |             | L, Tx         | Erscheint, wenn Kardiale Voroperationen = Ja |
++-----------------------------------------------+------------------+-------------+---------------+----------------------------------------------+
+| Z.n. OP/Intervention an der Trikuspidalklappe |                  |             | L, Tx         | Erscheint, wenn Kardiale Voroperationen = Ja |
++-----------------------------------------------+------------------+-------------+---------------+----------------------------------------------+
 
 # Mechanische Kreislaufunterstützung - seit Listung
 
-| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| MCS dauerhaft - Permanente MCS |  |  | zwischen L und Tx / EdB |  |
-| Datum der Implantation |  |  | zwischen L und Tx / EdB |  |
++--------------------------------+------------------+-------------+-------------------------+-------------+
+| **Variable**                   | **Beschreibung** | **Einheit** | **Zeitpunkt**           | **Hinweis** |
++:===============================+:=================+:============+:========================+:============+
+| MCS dauerhaft - Permanente MCS |                  |             | zwischen L und Tx / EdB |             |
++--------------------------------+------------------+-------------+-------------------------+-------------+
+| Datum der Implantation         |                  |             | zwischen L und Tx / EdB |             |
++--------------------------------+------------------+-------------+-------------------------+-------------+
 
 # Spenderdaten
 
 Erscheint, wenn Neuer Status = transplantiert.
 
-| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| Geschlecht |  |  | Tx |  |
-| Gewicht |  | kg | Tx |  |
-| Größe |  | cm | Tx |  |
-| Spenderalter |  | Jahre | Tx |  |
-| Komplette Ischämiezeit |  | Minuten | Tx |  |
-| Zeit außerhalb des Körpers (out of body time) |  | Minuten | Tx |  |
-| Perfusionssystem OCS |  |  | Tx |  |
-| Perfusionssystem Xvivo |  |  | Tx |  |
++-----------------------------------------------+------------------+-------------+---------------+-------------+
+| **Variable**                                  | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
++:==============================================+:=================+:============+:==============+:============+
+| Geschlecht                                    |                  |             | Tx            |             |
++-----------------------------------------------+------------------+-------------+---------------+-------------+
+| Gewicht                                       |                  | kg          | Tx            |             |
++-----------------------------------------------+------------------+-------------+---------------+-------------+
+| Größe                                         |                  | cm          | Tx            |             |
++-----------------------------------------------+------------------+-------------+---------------+-------------+
+| Spenderalter                                  |                  | Jahre       | Tx            |             |
++-----------------------------------------------+------------------+-------------+---------------+-------------+
+| Komplette Ischämiezeit                        |                  | Minuten     | Tx            |             |
++-----------------------------------------------+------------------+-------------+---------------+-------------+
+| Zeit außerhalb des Körpers (out of body time) |                  | Minuten     | Tx            |             |
++-----------------------------------------------+------------------+-------------+---------------+-------------+
+| Perfusionssystem OCS                          |                  |             | Tx            |             |
++-----------------------------------------------+------------------+-------------+---------------+-------------+
+| Perfusionssystem Xvivo                        |                  |             | Tx            |             |
++-----------------------------------------------+------------------+-------------+---------------+-------------+
 
-# Perioperativer Verlauf
+# Perioperativer Verlauf der Transplantation
 
 Erscheint, wenn Neuer Status = transplantiert.
 
-| **Variable** | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis** |
-|:---|:---|:---|:---|:---|
-| System Infektion |  |  | Tx |  |
-| Blutung |  |  | Tx |  |
-| Apoplex |  |  | Tx |  |
-| Apoplex / thomboembolische Komplikationen |  |  | Tx | bis 30 Tage nach Tx |
-| Allograftversagen |  |  | Tx | bis 30 Tage nach Tx |
++-------------------------------------------+------------------+-------------+---------------+---------------------+
+| **Variable**                              | **Beschreibung** | **Einheit** | **Zeitpunkt** | **Hinweis**         |
++:==========================================+:=================+:============+:==============+:====================+
+| System Infektion                          |                  |             | Tx            | bis 30 Tage nach Tx |
++-------------------------------------------+------------------+-------------+---------------+---------------------+
+| Blutung                                   |                  |             | Tx            | bis 30 Tage nach Tx |
++-------------------------------------------+------------------+-------------+---------------+---------------------+
+| Apoplex / thomboembolische Komplikationen |                  |             | Tx            | bis 30 Tage nach Tx |
++-------------------------------------------+------------------+-------------+---------------+---------------------+
+| Allograftversagen                         |                  |             | Tx            | bis 30 Tage nach Tx |
++-------------------------------------------+------------------+-------------+---------------+---------------------+
