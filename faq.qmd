@@ -8,6 +8,12 @@ title: "FAQ"
 
 Nein, das ist für die Dateneingabe nicht relevant. Episoden, die vor 2006 liegen, werden nicht berücksichtigt. Wenn ein Patient vor 2006 transplantiert wurde und im Beobachtungszeitraum von Anfang 2006 bis Ende 2023 erneut auf die Warteliste aufgenommen wird, wird dies als seine Episode 1 betrachtet. Weitere Informationen hierzu finden Sie im Abschnitt "Episoden".
 
-### Welches Zentrum macht die Dateneingabe, wenn ein:e Patient:in zwischen zwei Episoden von einem Zentrum zu einem anderen umzieht?
+### Zentrumswechsel - Welches Zentrum gibt welche Daten ein?
 
-In diesem Fall ist es wichtig, dass das spätere Zentrum die korrekte Episoden-Anzahl einträgt. Darüber hinaus sollten beide Zentren jeweils ihre Information für die entsprechende Episode eintragen. Hierfür ist es essentiell, dass die gleiche ID verwendet wird. In diesem Fall kontaktieren Sie und bitte. Unsere Kontaktdaten finden Sie im Abschnitt "Startseite".
+Beim Import sind die IDs den Zentren zugeordnet, in denen die Listung statt gefunden hat.
+
+-   Zentrumswechsel **zwischen zwei Episoden**: dann gibt das Zentrum mit Episode 1, Episode 1 ein und entsprechend gibt Zentrum mit Episode 2, Episode 2 ein. Diese Zuordnung wurde bereits beim Datenimport berücksichtigt.
+
+-   Zentrumswechsel **innerhalb einer Episode**: dann beginnt das Zentrum, welches die Listung vorgenommen hat, die Daten zum Zeitpunkt der Listung einzugeben. Anschließend wechselt die *Zuständigkeit* und das Zentrum, welches die Transplantation vorgenommen hat, gibt die entsprechenden Daten ein.
+
+Um die *Zuständigkeiten* der Zentren bei Zentrumswechsel zu wechseln bitte ich Sie bis Monatsende eine Liste der eCRF IDs, welche von Ihrer Seite her abgeschlossen sind, an cas\@medunwien.ac.at zu senden. Wir leiten diese Liste weiter, lassen die Zuständigkeit ändern und dann kann das jweils andere Zentrum die Dateneingabe fortsetzen.
