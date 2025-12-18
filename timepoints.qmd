@@ -54,7 +54,7 @@ Die Zuordnung der Variablen zu den Zeitpunkten finden Sie unter dem Reiter **"Va
 
 # Zeitfenster
 
-Die Zeitfenster umfassen die festgelegten Zeitpunkte (siehe oben). Da nicht immer alle Informationen zu einem bestimmten Zeitpunkt (z. B. am Tag der Listung) vorliegen, gibt es Zeitfenster. Diese definieren den zeitlichen Rahmen, in dem Informationen dem jeweiligen Zeitpunkt zugeordnet werden können. Falls mehrere Informationen für dieselbe Variable zum gleichen Zeitpunkt vorliegen, sollte die Information ausgewählt und in die Eingabemaske eingetragen werden, die **dem entsprechenden Zeitpunkt am nächsten liegt**.
+Die Zeitfenster umfassen die festgelegten Zeitpunkte (siehe oben). Da nicht immer alle Informationen zu einem bestimmten Zeitpunkt (z. B. am Tag der Listung) vorliegen, gibt es Zeitfenster. Diese definieren den zeitlichen Rahmen, in dem Informationen dem jeweiligen Zeitpunkt zugeordnet werden können. Falls mehrere Informationen für dieselbe Variable im gleichen Zeitfenster vorliegen, sollte die Information ausgewählt und in die Eingabemaske eingetragen werden, die **dem entsprechenden Zeitpunkt am nächsten liegt**.
 
 +-------------------------+--------------------+---------------------+
 | Zeitpunkt               | *vor* d. Zeitpunkt | *nach* d. Zeitpunkt |

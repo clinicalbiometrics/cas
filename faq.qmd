@@ -4,7 +4,9 @@ title: "FAQ"
 
 # Häufig gestellte Fragen
 
-### Ist es für die Dateneingabe relevant, wenn ein Patient vor 2006 bereits transplantiert wurde und im Beobachtungszeitrum des CAS-Projektes in die Warteliste aufgenommen wird?
+### Aufnahme auf die Warteliste vor 2006
+
+Ist es für die Dateneingabe relevant, wenn ein Patient vor 2006 bereits transplantiert wurde und im Beobachtungszeitrum des CAS-Projektes in die Warteliste aufgenommen wird?
 
 Nein, das ist für die Dateneingabe nicht relevant. Episoden, die vor 2006 liegen, werden nicht berücksichtigt. Wenn ein Patient vor 2006 transplantiert wurde und im Beobachtungszeitraum von Anfang 2006 bis Ende 2023 erneut auf die Warteliste aufgenommen wird, wird dies als seine Episode 1 betrachtet. Weitere Informationen hierzu finden Sie im Abschnitt "Episoden".
 
@@ -17,3 +19,13 @@ Beim Import sind die IDs den Zentren zugeordnet, in denen die Listung statt gefu
 -   Zentrumswechsel **innerhalb einer Episode**: dann beginnt das Zentrum, welches die Listung vorgenommen hat, die Daten zum Zeitpunkt der Listung, einzugeben. Anschließend wechselt die *Zuständigkeit* und das Zentrum, welches die Transplantation vorgenommen hat, gibt die entsprechenden Daten ein.
 
 Um die *Zuständigkeiten* der Zentren bei Zentrumswechsel zu wechseln bitte ich Sie bis Monatsende eine Liste der eCRF IDs, welche von Ihrer Seite her abgeschlossen sind, an cas\@medunwien.ac.at zu senden. Wir leiten diese Liste weiter, lassen die Zuständigkeit ändern und dann kann das jweils andere Zentrum die Dateneingabe fortsetzen.
+
+
+### Keine Werte im vorgesehenen Zeitfenster vorhanden
+
+*Zeitfenster* definieren den zeitlichen Rahmen, in dem Informationen dem jeweiligen Zeitpunkt zugeordnet werden können. 
+
+- Bei der Aufnahme auf die Warteliste beginnt das Zeitfenster 4 Wochen vor der Listung und endet eine Woche danach. 
+- Bei der Transplantation beginnt das Zeitfenster 4 Wochen vor der Transplantation und endet zum Transplantationszeitpunkt.
+
+Falls im relevanten Zeitfenster **keine** Werte vorliegen, sollen Werte, die **außerhalb** dieser Zeitfenster gemessen wurden, bei der Erfassung **nicht** berücksichtigt werden, um die Genauigkeit der erhobenen Daten nicht zu kompromittieren. (Die entsprechenden Felder müssen dann leer bleiben.)
