@@ -29,6 +29,6 @@ Um die *Zuständigkeiten* der Zentren bei Zentrumswechsel zu wechseln bitte ich 
 
 Falls im relevanten Zeitfenster **keine** Werte vorliegen, sollen Werte, die **außerhalb** dieser Zeitfenster gemessen wurden, bei der Erfassung **nicht** berücksichtigt werden, um die Genauigkeit der erhobenen Daten nicht zu kompromittieren. (Die entsprechenden Felder müssen dann leer bleiben.)
 
-### Cardiac Index - Welche Methode soll zur Berechnung  verwendet werden?
+### Cardiac Index - Welche Methode soll zur Berechnung verwendet werden?
 
 Für die Berechnung des **Cardiac Index** kann sowohl die Thermodilutationsmethode, als auch die Fick-Methode verwendet werden. Liegen beide Messungen vor, ist die Thermodilutationsmethode zu favorisieren.
