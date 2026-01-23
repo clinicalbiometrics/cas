@@ -32,3 +32,8 @@ Falls im relevanten Zeitfenster **keine** Werte vorliegen, sollen Werte, die **a
 ### Cardiac Index - Welche Methode soll zur Berechnung verwendet werden?
 
 Für die Berechnung des **Cardiac Index** kann sowohl die Thermodilutationsmethode, als auch die Fick-Methode verwendet werden. Liegen beide Messungen vor, ist die Thermodilutationsmethode zu favorisieren.
+
+### Kontrollkästchen "Dateneingabe ist für diesen Patient abgeschlossen"
+
+Bestätigen Sie das Kontrollkästchen **"Dateneingabe ist für diesen Patient abgeschlossen"**, wenn Sie alle Daten eines Patienten erfasst haben. Damit ist eindeutig festgehalten, dass keine weitere Eingabe mehr erforderlich ist, und die Daten für die Analysen finalisiert sind. \
+Spätere Revisionen sind dennoch möglich, falls etwaige Fehler bei der Dateneingabe nachträglich festgestellt werden.
