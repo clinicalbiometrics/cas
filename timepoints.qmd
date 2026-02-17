@@ -42,11 +42,12 @@ Variablen die sich auf den Zeitpunkt der Transplantation beziehen sind in der Da
 
 Der Zeitraum der Beobachtung eines:r Patient:in kann auf 3 Arten enden:
 
-1.  Zeitpunkt der letzen Datenerhebung (last seen alive): der letzte Dokumentierte Zeitpunkt an dem bekannt ist, der Patient lebt,
+1.  Patient:in verstorben: bitte "Todesdatum" ausfüllen
 
-2.  Patient verstorben,
+2.  falls kein Todesdatum bekannt ist, der:die Patient:in am 31.12.2023 (=Ende Studienperiode CAS-Projekt) aber noch nachweislich gelebt hat, bitte unter "Zeitpunkt der letzten Datenerhebung (last seen alive)" den 31.12.2023 eintragen.
 
-3.  Ende des Beobachtungszeitraums des CAS-Projektes: in diesem Fall bitte unter Zeitpunkt der letzen Datenerhebung 31.12.2023 eintragen.\
+3.  falls nicht bekannt, ob Patient:in vor 31.12.2023 verstorben ist, bitte unter "Zeitpunkt der letzten Datenerhebung (last seen alive)" den letzten dokumentierten Zeitpunkt eintragen, zu dem bekannt war, dass der:die Patient:in noch gelebt hat.
+
     \
 
 Die Zuordnung der Variablen zu den Zeitpunkten finden Sie unter dem Reiter **"Variablen".**\
